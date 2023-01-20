@@ -23,6 +23,8 @@ Virtuaalikoneen teko ja linuxin lataaminen siihen sujui hyvin. Ainoa eroavaisuus
  
  Kun VirtualBox on ladattu ja käynnistettu uuden virtuaalikoneen saa tehtyä painamalla vasemmalla ylävalikossa "machine" ja alasvetovalikosta "new", joka vie virtuaalikoneen luontinäkymään. "name" kohtaan voi laittaa minkä haluaa virtuaalikoneensa nimeksi. Folder ainakin itsellä meni suoraan oikeaksi eli pidä se oletussijaintina. Iso imageen laitetaan juuri lataamamme Debian ISO tiedoston tiedostosijainti. Typeen tulee Linux ja versioon Debian 64-bit. Memoryyn ja prosessorien määrään voi laittaa mitä vain mutta suosittelen ainakin 4 gigaa ramia. Prosessorejakin voi laittaa monta mutta suosittelen käyttämään vain yhtä.
  
+ Lopuksi paina "Finish" valikon oikeasta alareunasta
+ 
  
  
  Kaikki toimii!
