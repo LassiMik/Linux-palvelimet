@@ -39,7 +39,14 @@
  
  $ sudo apt-get update
  
- jonka jälkeen kehote kysyy salasanaa, joka on sama, jolla kirjauduit juuri koneellesi
+ jonka jälkeen kehote kysyy salasanaa, joka on sama, jolla kirjauduit juuri koneellesi. Äskeinen komento haki päivitykset ja seuraavaksi asennamme ne.
  
+ $ sudo apt-get -y dist-upgrade
+ 
+ Seuraavilla komennoilla asennamme vielä tietokoneeseen palomuurin
+ 
+ $ sudo apt-get -y install ufw
+ 
+$ sudo ufw enable
  
 
