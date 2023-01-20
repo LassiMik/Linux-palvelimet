@@ -1,4 +1,4 @@
-#Virtuaalitietokoneen lataus ja Debianin asennus siihen
+# Virtuaalitietokoneen lataus ja Debianin asennus siihen
  Käyttöjärjestelmä: 
  WIN 10 Home
  
