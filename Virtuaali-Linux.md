@@ -30,4 +30,6 @@
  Palataan työpöydälle sulkemalla selain ja valitaan työpöydältä pikakuvake nimeltä "install debian" joka aloittaa debianin asennuksen virtuaalikoneelle. Ensiksi asennusohjelmasta valitsemme sijainnin (Helsinki) sijaintia voi vaihtaa joko painamalla kartasta Suomea tai etsimällä hakemistosta. Seuraavassa vaiheessa valitsemme näppäimistön kieleksi suomen vasemmasta hakemistosta (Finnish) sekä oikean puoleisesta hakemistosta Finnish(classic, no dead keys). Näppäimistöä voi vielä kokeilla valintojen alla olevaan kenttään. Seuraavana kohtana on "Partitions" josta valitaan "Erase disk" ja alhaalla olevasta "boot loader location" valitaan "Master Boot Record". Seuraavaksi "Users" kohdassa laitetaan oma oikea nimi, käyttäjän nimi (käytetään kun kirjaudutaan virtuaalikoneeseen), tietokoneen nimi (kannattaa olla anonyymi) sekä salasana. Tarkastetaan vielä yhteenveto ja painetaan install.
  
  Debianin asentamisen jälkeen käynnistä virtuaalikone uudestaan.
+ 
+ ## Komentokehote
 
