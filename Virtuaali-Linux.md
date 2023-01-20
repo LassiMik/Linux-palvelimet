@@ -2,14 +2,14 @@
 
 Tein harjoituksen omalla koneellani, jonka speksit ovat
 
- Käyttöjärjestelmä: 
- WIN 10 Home
- 
- Ram: 
- 32 GB
- 
- Fyysistä muistia: 
- 500GB
+    Käyttöjärjestelmä: 
+    WIN 10 Home
+
+    Ram: 
+    32 GB
+
+    Fyysistä muistia: 
+    500GB
  
  Virtuaaliohjelmistona toimii Oraclen VM VirtualBox Manager
  
