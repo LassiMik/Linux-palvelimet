@@ -24,8 +24,10 @@
  
  Nyt sinulla on oma virtuaalinen linux tietokone!
  
- Kun olet käynnistänyt virtuaalitietokoneesi kannattaa käydä kokeilemassa toimiihan selain oikein valitsemalla virtuaalikoneen vasemmasta yläreunasta "Applications" ja 
- "Web Browser". Jos selain toimii normaalisti valitse vielä työpöydältä "install debian" pikakuvake, jolla voimme asentaa debianin virtuaalikoneelle.
+ Virtuaalitietokoneen voi käynnistää tuplaklikkaamalla VirtualBox managerissa uutta virtuaalitietokoneesi pikakuvaketta. Koneen käynnistyessä tulee vastaan startup valikko jossa valitaan ylin vaihtoehto eli Debian GNU/Linux Live (kernel versio-amd64). Valikossa voi liikkua nuolinäppäimillä sekä valita valinnan entteriä painamalla.
+ Kun olet päässyt virtuaalitietokoneesi työpöydälle kannattaa käydä kokeilemassa toimiihan selain oikein valitsemalla virtuaalikoneen vasemmasta yläreunasta "Applications" ja "Web Browser". Jos selain toimii normaalisti Päästään seuraavan työvaiheeseen.
+ 
+ Palataan työpöydälle sulkemalla selain ja valitaan työpöydältä pikakuvake nimeltä "install debian" joka aloittaa debianin asennuksen virtuaalikoneelle. Ensiksi asennusohjelmasta valitsemme sijainnin (Helsinki) sijaintia voi vaihtaa joko painamalla kartasta Suomea tai etsimällä hakemistosta. Seuraavassa vaiheessa valitsemme näppäimistön kieleksi suomen vasemmasta hakemistosta (Finnish) sekä oikean puoleisesta hakemistosta Finnish(classic, no dead keys). Näppäimistöä voi vielä kokeilla valintojen alla olevaan kenttään. 
  
  Debianin asentamisen jälkeen käynnistä virtuaalikone uudestaan ja nauti.
 
