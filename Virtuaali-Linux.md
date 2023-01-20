@@ -46,8 +46,7 @@ Tein harjoituksen omalla koneellani, jonka speksit ovat
  Seuraavilla komennoilla asennamme vielä tietokoneeseen palomuurin
  
     $ sudo apt-get -y install ufw
-
- 
+#
     $ sudo ufw enable
     
 ## Päätöspuheet
