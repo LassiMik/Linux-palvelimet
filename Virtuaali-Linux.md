@@ -48,5 +48,7 @@
     $ sudo apt-get -y install ufw
  
     $ sudo ufw enable
- 
+    
+## Päätöspuheet
 
+Asennuksessa ei ilmennyt ongelmia. Virtuaalitietokone toimii ongelmitta.
