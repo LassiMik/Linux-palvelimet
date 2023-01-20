@@ -12,6 +12,8 @@
  
  Debianin Iso tiedosto: debian-live-11.6.0-amd64-xfce+nonfree.iso.
  
+ Aloitin latauksen 20.1.2023 klo 15:32
+ 
 ## Aloitus
  
  Aloitin lataamalla Oraclen VM VirtualBox Managerin Oraclen omilta nettisivuilta. Seuraavaksi myös asensin Debian ISO tiedoston hakemalla netistä "debian non-free live iso". Tarvitsemme ISO tiedostoa myöhemmin tehdessämme virtuaalikonetta.
