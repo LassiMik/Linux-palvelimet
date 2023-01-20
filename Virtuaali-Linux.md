@@ -1,8 +1,4 @@
-Virtuaalikoneen teko ja linuxin lataaminen siihen sujui hyvin. Ainoa eroavaisuus ohjeisiin verrattuna oli ISO image kohdan valitseminen jo ennen virtuaalikoneen tekemistä. Virtuaalikonetta ladattaessa Oracle valitti python versiosta
- ![Add file: Upload](ISOimage.PNG)
- 
 
- 
  Käyttöjärjestelmä: 
  WIN 10 Home
  
