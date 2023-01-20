@@ -8,10 +8,11 @@
  Fyysistä muistia: 
  500GB
  
- 
  Virtuaaliohjelmistona toimii Oraclen VM VirtualBox Manager
  
  Debianin Iso tiedosto: debian-live-11.6.0-amd64-xfce+nonfree.iso.
+ 
+## Aloitus
  
  Aloitin lataamalla Oraclen VM VirtualBox Managerin Oraclen omilta nettisivuilta. Seuraavaksi myös asensin Debian ISO tiedoston hakemalla netistä "debian non-free live iso". Tarvitsemme ISO tiedostoa myöhemmin tehdessämme virtuaalikonetta.
  
