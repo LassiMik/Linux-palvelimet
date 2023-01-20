@@ -14,6 +14,7 @@ Virtuaalikoneen teko ja linuxin lataaminen siihen sujui hyvin. Ainoa eroavaisuus
  
  
  Virtuaaliohjelmistona toimii Oraclen VM VirtualBox Manager
+ 
  Debianin Iso tiedosto: debian-live-11.6.0-amd64-xfce+nonfree.iso.
  
  
