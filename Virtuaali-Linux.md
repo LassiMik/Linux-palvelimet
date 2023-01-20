@@ -27,5 +27,7 @@ Virtuaalikoneen teko ja linuxin lataaminen siihen sujui hyvin. Ainoa eroavaisuus
  
  Nyt sinulla on oma virtuaalinen linux tietokone!
  
+ Kun olet käynnistänyt virtuaalitietokoneesi kannattaa käydä kokeilemassa toimiihan selain oikein valitsemalla virtuaalikoneen vasemmasta yläreunasta "Applications" ja 
+ "Web Browser". Jos selain toimii normaalisti valitse vielä työpöydältä "install debian" pikakuvake, jolla voimme asentaa debianin virtuaalikoneelle.
  
  Kaikki toimii!
