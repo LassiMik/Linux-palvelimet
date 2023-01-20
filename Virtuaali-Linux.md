@@ -4,7 +4,7 @@ Virtuaalikoneen teko ja linuxin lataaminen siihen sujui hyvin. Ainoa eroavaisuus
 
  
  Käyttöjärjestelmä: 
- WIN 10
+ WIN 10 Home
  
  Ram: 
  32 GB
