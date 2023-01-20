@@ -16,7 +16,7 @@
  
 ## Aloitus
  
- Aloitin lataamalla Oraclen VM VirtualBox Managerin Oraclen omilta nettisivuilta. Seuraavaksi myös asensin Debian ISO tiedoston hakemalla netistä "debian non-free live iso". Tarvitsemme ISO tiedostoa myöhemmin tehdessämme virtuaalikonetta.
+ Aloitin lataamalla Oraclen VM VirtualBox Managerin Oraclen  nettisivulta https://www.virtualbox.org. Seuraavaksi myös asensin Debian ISO tiedoston hakemalla netistä "debian non-free live iso". Tarvitsemme ISO tiedostoa myöhemmin tehdessämme virtuaalikonetta.
  
  Kun VirtualBox on ladattu ja käynnistettu uuden virtuaalikoneen saa tehtyä painamalla vasemmalla ylävalikossa "machine" ja alasvetovalikosta "new", joka vie virtuaalikoneen luontinäkymään. "name" kohtaan voi laittaa minkä haluaa virtuaalikoneensa nimeksi. Folder ainakin itsellä meni suoraan oikeaksi eli pidä se oletussijaintina. Iso imageen laitetaan juuri lataamamme Debian ISO tiedoston tiedostosijainti. Typeen tulee Linux ja versioon Debian 64-bit. Memoryyn ja prosessorien määrään voi laittaa mitä vain mutta suosittelen ainakin 4 gigaa ramia. Prosessorejakin voi laittaa monta mutta suosittelen käyttämään vain yhtä.
  
