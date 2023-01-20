@@ -1,4 +1,7 @@
 # Virtuaalitietokoneen lataus ja Debianin asennus siihen
+
+Tein harjoituksen omalla koneellani, jonka speksit ovat
+
  Käyttöjärjestelmä: 
  WIN 10 Home
  
