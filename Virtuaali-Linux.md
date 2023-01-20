@@ -31,5 +31,4 @@ Virtuaalikoneen teko ja linuxin lataaminen siihen sujui hyvin. Ainoa eroavaisuus
  "Web Browser". Jos selain toimii normaalisti valitse vielä työpöydältä "install debian" pikakuvake, jolla voimme asentaa debianin virtuaalikoneelle.
  
  Debianin asentamisen jälkeen käynnistä virtuaalikone uudestaan ja nauti.
- 
- Kaikki toimii!
+
