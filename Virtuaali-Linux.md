@@ -34,4 +34,12 @@
  ## Komentokehote
  
  Virtuaalikoneen uudelleenkäynnistämisen jälkeen valitse työpöydältä vasemmalta ylhäältä "applications" ja "terminal emulator"
+ 
+ Terminaalissa käytetään seuraavat komennot, jotta päivitetään kaikki sovellukset uusimpiin versioihin. Kirjoita komennot ilman "$" merkkiä
+ 
+ $ sudo apt-get update
+ 
+ jonka jälkeen kehote kysyy salasanaa, joka on sama, jolla kirjauduit juuri koneellesi
+ 
+ 
 
