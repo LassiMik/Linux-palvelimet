@@ -25,6 +25,7 @@ Virtuaalikoneen teko ja linuxin lataaminen siihen sujui hyvin. Ainoa eroavaisuus
  
  Lopuksi paina "Finish" valikon oikeasta alareunasta
  
+ Nyt sinulla on oma virtuaalinen linux tietokone!
  
  
  Kaikki toimii!
