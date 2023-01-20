@@ -2,6 +2,7 @@ Virtuaalikoneen teko ja linuxin lataaminen siihen sujui hyvin. Ainoa eroavaisuus
  ![Add file: Upload](ISOimage.PNG)
  
  Lähtötilanne: 
+ 
  Käyttöjärjestelmä: WIN 10 
  Ram: 32 GB
  Fyysistä muistia: 500GB
