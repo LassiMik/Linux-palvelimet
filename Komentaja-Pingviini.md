@@ -110,3 +110,10 @@ Grepillä voi myös tarkastella tarkemmin tiettyä kansiota ja löytyykö sen si
 
 ![image](https://user-images.githubusercontent.com/112076377/213912596-cd62d552-4adf-4d9d-9359-54b2f81bfcd6.png)
 
+Viimeinen hankalampi mutta selvästi hyödyllisempi komento 
+
+    grep -r -i 'KALA' ~/harjoitus/days/
+    
+-r tarkastaa läpi kaikki kansiossa ja sen alikansioissa olevat tiedostot. -i ei välitä isoista ja pienistä kirjaimista. 
+
+![image](https://user-images.githubusercontent.com/112076377/213913061-3fea2290-57aa-4f95-ba97-9eace5a276f8.png)
