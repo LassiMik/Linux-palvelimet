@@ -43,3 +43,6 @@ Seuraava tärkeä kansio on home kansion sisällä olevien käyttäjien omat kan
     cd lassiv
     
 Omassa tapauksessani
+
+![image](https://user-images.githubusercontent.com/112076377/213910717-ba2fead4-7796-49a4-be91-df2a4ecf852f.png)
+
