@@ -32,6 +32,6 @@ Oma roottini näyttää tältä.
 
 Seuraavaksi siirryin rootista home kansioon
 
-       cd home
+    cd home
        
 Home kansiossa ovat kaikki käyttäjät. Omassa virtuaalikoneessa siellä on vain oma käyttäjäni, koska en ole tehnyt enempää käyttäjiä 
