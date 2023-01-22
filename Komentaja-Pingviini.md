@@ -75,8 +75,10 @@ Seuraava kansio, media, löytyy root kansion alta. Mediassa näkyy jos koneeseen
     cd /
 
     cd media
+    
+Oma media kansioni oli tyhjä, koska koneeseeni ei ole liitetty mm. USB-tikkuja
 
-Viimeinenn tärkeä kansio on var/log, jonne pääsee reittiä:
+Viimeinen tärkeä kansio on var/log, jonne pääsee reittiä:
 
     cd /
     
