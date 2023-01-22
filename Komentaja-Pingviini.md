@@ -121,5 +121,7 @@ Viimeinen hankalampi mutta selvästi hyödyllisempi komento
 ## Lähteet
 
 Grep komennon käyttö: https://www.cyberciti.biz/faq/howto-use-grep-command-in-linux-unix/
+
 Linuxin tärkeät tiedostot: https://terokarvinen.com/2020/command-line-basics-revisited/?fromSearch=command%20line%20basics%20revisited
+
 Hyödylliset linux komentokehoteohjelmistot: https://www.makeuseof.com/fun-linux-command-line-programs/
