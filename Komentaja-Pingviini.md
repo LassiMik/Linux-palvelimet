@@ -104,4 +104,7 @@ Jolla voi hakea nykyisen kansion sekä sen alikansioiden sisältä tietyllä hak
 
 ![image](https://user-images.githubusercontent.com/112076377/213912498-a8066da8-8517-4ece-8f5b-ef2533a30a95.png)
 
-    
+Grepillä voi myös tarkastella tarkemmin tiettyä kansiota ja löytyykö sen sisältä tietoa hakusanalla.
+
+![image](https://user-images.githubusercontent.com/112076377/213912596-cd62d552-4adf-4d9d-9359-54b2f81bfcd6.png)
+
