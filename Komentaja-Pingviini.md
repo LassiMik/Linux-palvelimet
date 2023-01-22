@@ -25,3 +25,7 @@ Seuraavaksi latasin kolme hyödyllistä komentoriviohjelmaa käyttämällä kome
 Ensimmäinen tärkeä kansio on root, jonka sisällä kaikki tiedostot ovat. Roottiin pääsin kirjoittamalla komentokehotteeseen 
 
     cd /
+    
+Oma roottini näyttää tältä. 
+
+![Add file: Upload](root.PNG)
