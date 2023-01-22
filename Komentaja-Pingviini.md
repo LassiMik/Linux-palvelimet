@@ -89,3 +89,19 @@ Logiin tallentuu koko järjestelmän log-tiedostot eli tekstitiedostoja eri jär
 ![image](https://user-images.githubusercontent.com/112076377/213911779-2042b270-e51a-4fca-9c8a-7048985d1890.png)
 
 ## Grep - komento
+
+Grep - komentoa käytetään terminaalissa hakutyökaluna. Jotta sain testattua Grepin käyttöä täytin osaan aikaisemman harjoituksen /harjoitus/days/ kansioista tekstitiedostoilla. 
+
+    cd sunday
+    
+    nano horse 
+    
+Hyödyllisistä grep komennoista ensimmäinen on 
+
+    grep -R 'hakusana' .
+    
+Jolla voi hakea nykyisen kansion sekä sen alikansioiden sisältä tietyllä hakusanalla.
+
+![image](https://user-images.githubusercontent.com/112076377/213912498-a8066da8-8517-4ece-8f5b-ef2533a30a95.png)
+
+    
