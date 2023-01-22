@@ -29,3 +29,9 @@ Ensimmäinen tärkeä kansio on root, jonka sisällä kaikki tiedostot ovat. Roo
 Oma roottini näyttää tältä. 
 
 ![Add file: Upload](root.PNG)
+
+Seuraavaksi siirryin rootista home kansioon
+
+       cd home
+       
+Home kansiossa ovat kaikki käyttäjät. Omassa virtuaalikoneessa siellä on vain oma käyttäjäni, koska en ole tehnyt enempää käyttäjiä 
