@@ -1,4 +1,4 @@
-# Komentaja Pingviini
+# Komentaja Pingviini (22.1.2023 11:05)
 
 Aloitin lataamalla micro editorin kirjoittamalla terminaaliin komennon 
 
@@ -14,7 +14,7 @@ Seuraavaksi asensin lshw työkalun saadakseni enemmän tietoa virtuaalikoneestan
 
 Kuten analyysistä näkyy host koneessani on prossuna i5-11400F sekä annoin virtuaalikoneeseen 2 gigaa muistia 
 
-## Komentoriviohjelmien lataus
+## Komentoriviohjelmien lataus (11:15)
 
 Seuraavaksi latasin kolme hyödyllistä komentoriviohjelmaa käyttämällä komentoa 
 
@@ -34,7 +34,7 @@ Kolmas ohjelma fortune tulostaa komentokehotteeseen satunnaisesti valitun vitsin
 
 
     
-## Tärkeät kansiot
+## Tärkeät kansiot (11:48)
 
 Ensimmäinen tärkeä kansio on root, jonka sisällä kaikki tiedostot ovat. Roottiin pääsin kirjoittamalla komentokehotteeseen 
 
@@ -88,7 +88,7 @@ Logiin tallentuu koko järjestelmän log-tiedostot eli tekstitiedostoja eri jär
 
 ![image](https://user-images.githubusercontent.com/112076377/213911779-2042b270-e51a-4fca-9c8a-7048985d1890.png)
 
-## Grep - komento
+## Grep - komento (12:40)
 
 Grep - komentoa käytetään terminaalissa hakutyökaluna. Jotta sain testattua Grepin käyttöä täytin osaan aikaisemman harjoituksen /harjoitus/days/ kansioista tekstitiedostoilla. 
 
@@ -117,3 +117,9 @@ Viimeinen hankalampi mutta selvästi hyödyllisempi komento
 -r tarkastaa läpi kaikki kansiossa ja sen alikansioissa olevat tiedostot. -i ei välitä isoista ja pienistä kirjaimista. 
 
 ![image](https://user-images.githubusercontent.com/112076377/213913061-3fea2290-57aa-4f95-ba97-9eace5a276f8.png)
+
+## Lähteet
+
+Grep komennon käyttö: https://www.cyberciti.biz/faq/howto-use-grep-command-in-linux-unix/
+Linuxin tärkeät tiedostot: https://terokarvinen.com/2020/command-line-basics-revisited/?fromSearch=command%20line%20basics%20revisited
+Hyödylliset linux komentokehoteohjelmistot: https://www.makeuseof.com/fun-linux-command-line-programs/
