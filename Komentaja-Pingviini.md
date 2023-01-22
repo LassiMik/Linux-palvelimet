@@ -88,3 +88,4 @@ Logiin tallentuu koko järjestelmän log-tiedostot eli tekstitiedostoja eri jär
 
 ![image](https://user-images.githubusercontent.com/112076377/213911779-2042b270-e51a-4fca-9c8a-7048985d1890.png)
 
+## Grep - komento
