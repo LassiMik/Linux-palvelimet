@@ -106,5 +106,7 @@ Jolla voi hakea nykyisen kansion sekä sen alikansioiden sisältä tietyllä hak
 
 Grepillä voi myös tarkastella tarkemmin tiettyä kansiota ja löytyykö sen sisältä tietoa hakusanalla.
 
+    grep 'hakusana' tiedostosijainti
+
 ![image](https://user-images.githubusercontent.com/112076377/213912596-cd62d552-4adf-4d9d-9359-54b2f81bfcd6.png)
 
