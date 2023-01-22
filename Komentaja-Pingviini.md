@@ -20,6 +20,10 @@ Seuraavaksi latasin kolme hyödyllistä komentoriviohjelmaa käyttämällä kome
 
     $ sudo apt install cmatrix cowsay fortune
     
+Ensimmäinen ohjelma, cmatrix, luo komentoriville leffoista tutun matrix animation
+![image](https://user-images.githubusercontent.com/112076377/213911090-70253ac9-dc41-423e-8dc4-d656a6ee9bd7.png)
+
+    
 ## Tärkeät kansiot
 
 Ensimmäinen tärkeä kansio on root, jonka sisällä kaikki tiedostot ovat. Roottiin pääsin kirjoittamalla komentokehotteeseen 
