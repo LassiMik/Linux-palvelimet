@@ -75,3 +75,14 @@ Seuraava kansio, media, löytyy root kansion alta. Mediassa näkyy jos koneeseen
     cd /
 
     cd media
+
+Viimeinenn tärkeä kansio on var/log, jonne pääsee reittiä:
+
+    cd /
+    
+    cd var/log
+    
+Logiin tallentuu koko järjestelmän log-tiedostot eli tekstitiedostoja eri järjestelmien tietyistä tapahtumista aikaleimoineen. Esim error tiedostot menevät tänne.
+
+![image](https://user-images.githubusercontent.com/112076377/213911779-2042b270-e51a-4fca-9c8a-7048985d1890.png)
+
