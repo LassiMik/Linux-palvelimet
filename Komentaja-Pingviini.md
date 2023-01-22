@@ -38,3 +38,8 @@ Home kansiossa ovat kaikki käyttäjät. Omassa virtuaalikoneessa siellä on vai
 
 ![image](https://user-images.githubusercontent.com/112076377/213910637-8a98b17b-53f0-47b4-8092-15be94cf0b28.png)
 
+Seuraava tärkeä kansio on home kansion sisällä olevien käyttäjien omat kansiot. Käyttäjien omat kansiot ovat ainoa paikka johon he voivat tallentaa tietoa 
+
+    cd lassiv
+    
+Omassa tapauksessani
