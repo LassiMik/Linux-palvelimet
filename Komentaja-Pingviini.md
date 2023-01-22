@@ -18,10 +18,20 @@ Kuten analyysistä näkyy host koneessani on prossuna i5-11400F sekä annoin vir
 
 Seuraavaksi latasin kolme hyödyllistä komentoriviohjelmaa käyttämällä komentoa 
 
-    $ sudo apt install cmatrix cowsay fortune
+    $ sudo apt install cmatrix figlet fortune
     
 Ensimmäinen ohjelma, cmatrix, luo komentoriville leffoista tutun matrix animation
-![image](https://user-images.githubusercontent.com/112076377/213911090-70253ac9-dc41-423e-8dc4-d656a6ee9bd7.png)
+
+![image](https://user-images.githubusercontent.com/112076377/213911112-70dcf4a4-7e0a-43a5-9acf-0a7b9f432e7e.png)
+
+Toinen ohjelma figlet luo kirjoittamastasi tekstistä ASCII taidetta!
+
+![image](https://user-images.githubusercontent.com/112076377/213911174-35fea14a-70ef-44cd-a324-7a6f3ebd4c7d.png)
+
+Kolmas ohjelma fortune tulostaa komentokehotteeseen satunnaisesti valitun vitsin tai opettavaisen viestin
+
+![image](https://user-images.githubusercontent.com/112076377/213911348-418cbc23-a5db-4316-817a-dff4ea7b6ad6.png)
+
 
     
 ## Tärkeät kansiot
