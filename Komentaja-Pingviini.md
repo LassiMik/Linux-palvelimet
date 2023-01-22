@@ -11,3 +11,5 @@ Seuraavaksi asensin lshw työkalun saadakseni enemmän tietoa virtuaalikoneestan
 
  ![Add file: Upload](hardware.PNG)
 
+
+Kuten analyysistä näkyy host koneessani on prossuna i5-11400F sekä annoin virtuaalikoneeseen 2 gigaa muistia 
