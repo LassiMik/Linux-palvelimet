@@ -69,3 +69,9 @@ Siirryin seuraavaksi katsomaan kaikkia virtuaalikoneeni asetuksia root kansiossa
 ![image](https://user-images.githubusercontent.com/112076377/213910910-b542a00c-cf65-4ed1-b742-356b4d7a1495.png)
 
 Oma etc hakemistoni näytti tältä. Hakemistoon tulee lisää tietoa kun työskennellään ohjelmistoilla, jotka tallentavat omia asetuksia koneelle
+
+Seuraava kansio, media, löytyy root kansion alta. Mediassa näkyy jos koneeseen on liittänyt esim. USB-tikkuja tai levykkeitä.
+
+    cd /
+
+    cd media
