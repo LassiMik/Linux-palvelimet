@@ -35,3 +35,6 @@ Seuraavaksi siirryin rootista home kansioon
     cd home
        
 Home kansiossa ovat kaikki käyttäjät. Omassa virtuaalikoneessa siellä on vain oma käyttäjäni, koska en ole tehnyt enempää käyttäjiä 
+
+![image](https://user-images.githubusercontent.com/112076377/213910637-8a98b17b-53f0-47b4-8092-15be94cf0b28.png)
+
