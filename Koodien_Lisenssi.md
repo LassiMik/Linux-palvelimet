@@ -23,3 +23,25 @@ Mikko Välimäki esittelee kirjassaan The Rise of Open Source Licensing väittei
 
    http://lib.tkk.fi/Diss/2005/isbn9529187793/isbn9529187793.pdf
 
+## Kolmen ohjelman lisenssit
+
+Fortune
+- MIT-lisenssi
+- Ohjelman github repositoriossa näkyy ohjelman lisenssi
+- MIT lisenssi on vapaa lisenssi 
+- MIT lisenssi sallii kehittäjien muokata, kopioida, käyttää ja levittää ohjelmistoa tai sen muokattua versiota. MIT lisenssi tulee olla myös jatkokehitetyissä ohjelmissa
+- https://github.com/shlomif/fortune-mod/blob/master/LICENSE
+
+cmatrix
+- GNU-lisenssi
+- Ohjelman github repositoriossa näkyy ohjelman lisenssi
+- GNU lisenssi on vapaa lisenssi 
+- GNU-lisenssi antaa muille kehittäjille oikeuden kopioida, levittää sekä muokata sitä. GNU lisenssi tulee olla myös jatkokehitetyissä ohjelmissa
+- https://github.com/abishekvashok/cmatrix/blob/master/COPYING
+
+figlet 
+- BSD-lisenssi
+- Ohjelman github repositoriossa näkyy ohjelman lisenssi
+- BSD-lisenssi on vapaa lisenssi 
+- BSD-lisenssi antaa muille käyttäjille samat oikeudet kuin kaksi ylempää vapaata lisenssiä rajaten patentoinnin. 
+- https://github.com/cmatsuoka/figlet/blob/master/LICENSE
