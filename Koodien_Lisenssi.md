@@ -2,7 +2,7 @@
 
 Aloitin tehtävien teon 10:28 25.1.2023 
 
-##FSF lisenssi
+## FSF lisenssi
 
 FSF free software definition eli FSF lisenssi on yksi suosituimmista vapaista lisensseistä.
 FSF pitää sisällään 
@@ -13,7 +13,7 @@ FSF pitää sisällään
 
    https://www.gnu.org/philosophy/free-sw.html
 
-##Open source lisenssien kasvu
+## Open source lisenssien kasvu
 
 Mikko Välimäki esittelee kirjassaan The Rise of Open Source Licensing väitteitä sekä puolesta että vastaan avoimen lähdekoodin lisseistä
 - Vapaan lähdekoodin ohjelmistot innostavat kehittäjiä muokkaamaan alkuperäistä koodia uusiin tarkoituksiin sekä parantelemaan sitä 
