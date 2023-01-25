@@ -54,3 +54,8 @@ Grep lauseke regex
 
 ![image](https://user-images.githubusercontent.com/112076377/214582399-1853ffab-4b81-46c0-9e45-53826ba4e8cf.png)
 
+Grep lauseke putkilla 
+
+    Grep -P '[mM]onkey' monkey | wc -l
+
+![image](https://user-images.githubusercontent.com/112076377/214583697-d73a319f-f75b-4eea-a824-4c9250736bcf.png)
