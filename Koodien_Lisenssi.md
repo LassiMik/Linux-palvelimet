@@ -45,3 +45,8 @@ figlet
 - BSD-lisenssi on vapaa lisenssi 
 - BSD-lisenssi antaa muille käyttäjille samat oikeudet kuin kaksi ylempää vapaata lisenssiä rajaten patentoinnin. 
 - https://github.com/cmatsuoka/figlet/blob/master/LICENSE
+
+## Grep lausekkeiden harjoittelu
+
+![image](https://user-images.githubusercontent.com/112076377/214582399-1853ffab-4b81-46c0-9e45-53826ba4e8cf.png)
+
