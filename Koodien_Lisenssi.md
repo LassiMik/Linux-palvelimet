@@ -22,3 +22,4 @@ Mikko Välimäki esittelee kirjassaan The Rise of Open Source Licensing väittei
 - Löysemmät lisenssit luo tilaa kehitykselle
 
    http://lib.tkk.fi/Diss/2005/isbn9529187793/isbn9529187793.pdf
+
