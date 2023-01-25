@@ -48,7 +48,7 @@ figlet
 
 ## Grep lausekkeet
 
-Grep lauseke regex
+### Grep lauseke regex
 
     Grep -P '[mM]onkey' monkey
 
@@ -56,7 +56,7 @@ Grep lauseke regex
 
 ![image](https://user-images.githubusercontent.com/112076377/214582399-1853ffab-4b81-46c0-9e45-53826ba4e8cf.png)
 
-Grep lauseke putkilla 
+### Grep lauseke putkilla 
 
     Grep -P '[mM]onkey' monkey | wc -l
     
