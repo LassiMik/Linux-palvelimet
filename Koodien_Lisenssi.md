@@ -59,3 +59,7 @@ Grep lauseke putkilla
     Grep -P '[mM]onkey' monkey | wc -l
 
 ![image](https://user-images.githubusercontent.com/112076377/214583697-d73a319f-f75b-4eea-a824-4c9250736bcf.png)
+
+## Loppusanat
+
+Sain tehtävät valmiiksi 16:05
