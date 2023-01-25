@@ -50,7 +50,7 @@ figlet
 
 Grep lauseke regex
 
-   Grep -P '[mM]onkey' monkey
+    Grep -P '[mM]onkey' monkey
 
 ![image](https://user-images.githubusercontent.com/112076377/214582399-1853ffab-4b81-46c0-9e45-53826ba4e8cf.png)
 
