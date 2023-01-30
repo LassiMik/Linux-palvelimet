@@ -89,6 +89,9 @@ Aiheutin tahallisen sudo komennon virheen kirjoittamalla salasanani väärin
 
 Tuttuun tapaan auth.log tulostaa tapahtuman kellonajan sekä päivämäärän rivin alkuun. Sen jälkeen komento antaa virheilmoituksen "authentication failure" koska ei pysty tunnistamaan minua väärällä salasanalla. auth.log myös tulostaa käyttäjän nimen joka yritti käyttää sudoa
 
+## access.log
+
+
 ## Loppusanat xx
 
 Sain tehtävät valmiiksi kello xx
