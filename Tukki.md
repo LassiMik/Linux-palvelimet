@@ -105,9 +105,19 @@ Pilkoin aiemmin tehtävässä mitä access.log sisältää ja erona aikaisempaan
 
 ### apache2/error.log
 
-## Loppusanat xx
+Tarkastelin apachen error.log tiedostoa komennolla
 
-Sain tehtävät valmiiksi kello xx
+    sudo tail /var/log/apache2/error.log
+
+Ja yritin aiheuttaa virheilmoitusta mm. käynnistämällä apachea vaikka se on jo päällä komennolla
+
+    sudo service apache2 start
+
+en kuitenkaan saanut aiheutettua erroria
+
+## Loppusanat 15:02
+
+Sain tehtävät valmiiksi kello 15:02
 
 ## Lähteet
 - [1] https://news.ycombinator.com/item?id=210321362  
