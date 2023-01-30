@@ -23,6 +23,12 @@ sain valmiiksi x) kohdan 12:50
 
  Esimerkkirivi tulostetusta tiedosta edellisellä komennolla
  
+Syslog siis tulostaa näytölle aikajanassa kaikki tapahtumat joille ei ole omaa lokia.
+Esimerkkitulostuksessa poimin yhden rivin jossa näkyy tapahtuma, kun kirjauduin virtuaalitietokoneelle. 
+Tulostuksessa näkyy paikallinen aika (kirjauduin 13:33 tietokoneelle), sekä päivämäärä 30.1
+Kellonajan ja päivämäärän jälkeen tulostuu virtuaalikoneen nimi "foo".
+Foon jälkeen näkyy network managerin antama koodi 458 joka kertoo inffoa tapahtumasta "agent registered"
+
 
 ## Lähteet
 - [1] https://news.ycombinator.com/item?id=210321362  
