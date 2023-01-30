@@ -11,6 +11,7 @@ Aloitin tehtävien teon 12:31 30.1.2023
   
 sain valmiiksi x) kohdan 12:50 
 ## a) Tukki 12:51
+### syslog
  siirryin var/log/ kansioon juuri kansiosta komennolla
  
     cd var/log
@@ -29,6 +30,7 @@ Tulostuksessa näkyy paikallinen aika (kirjauduin 13:33 tietokoneelle), sekä p�
 Kellonajan ja päivämäärän jälkeen tulostuu virtuaalikoneen nimi "foo".
 Foon jälkeen näkyy network managerin antama koodi 458 joka kertoo inffoa tapahtumasta "agent registered"
 
+### auth.log
 Seuraava tiedosto jota tarkastelen on auth.log 
 Tulostin auth.log sisällön samasta hakemistosta, jossa edellisen tehtävän komennolla
 
@@ -40,6 +42,8 @@ Aikaisemmassa kohdassa tarkastelin syslogia jossa näkyi, kun joku mystinen "age
 auth.log kertoo tarkempaa tietoa kirjautumistapahtumasta. Tulostuksessa näkyy päivämäärä sekä aika tapahtumalle. "systemd-logind" viittaa selvästi kirjautumiseen sekä koneen nimi "foo" edessä kertoo että virtuaalikoneelleni kirjauduttiin klo 13:33 tänään 30.1.
 "New session 2 of user lassiv" kertoo että omalle "lassiv" käyttäjälleni kirjauduttiin onnistuneesti
 
+
+### apache2/access.log
 Yritin seuraavaksi tarkastella apache2 kansion sisällä olevaa access.log tiedostoa, mutta en onnistunut. Virhe korjaantui kun sammutin apache2 serverin ja käynnistin uudestaan. Katselin access.log tiedoston sisältöä komennolla 
 
     sudo tail /var/log/apache2/access.log
@@ -47,7 +51,9 @@ Yritin seuraavaksi tarkastella apache2 kansion sisällä olevaa access.log tiedo
  ![image](https://user-images.githubusercontent.com/112076377/215476734-d4befc0e-317c-435b-83e9-38745614fc3e.png)
 
 access.log tiedostossa ensimmäisenä tulee ip osoite, josta pyyntö sivustolle on tehty. Tapauksessa, jossa sivustomme on localhostilla ip osoite on 127.0.0.1.
-Seuraavaksi access.log näyttää päivämäärän sekä kellonajan milloin pyyntö on tehty. Kello näkyy suomen aikaa normaalissa ajassa sekä perässä on vielä aikavyöhyketunniste (+0200), jos joku haluaa kääntää suomen ajan omalle aikavyöhykkeelleen. 
+Seuraavaksi access.log näyttää päivämäärän sekä kellonajan milloin pyyntö on tehty. Kello näkyy suomen aikaa normaalissa ajassa sekä perässä on vielä aikavyöhyketunniste (+0200), jos joku haluaa kääntää suomen ajan omalle aikavyöhykkeelleen.
+
+Aikavyöhykkeen jälkeen
 
 ## b) Aiheuta 14:03 
 
