@@ -13,11 +13,11 @@ sain valmiiksi x) kohdan 12:50
 ## a) tukki 12:51
  siirryin var/log/ kansioon juuri kansiosta komennolla
  
-        cd var/log
+    cd var/log
  
  Jonka jälkeen tarkastelin tiedostoa syslog komennolla
  
-        sudo cat syslog
+    sudo cat syslog
 
 ![image](https://user-images.githubusercontent.com/112076377/215466688-23240e5d-e161-4995-8f4f-74929716dc53.png)
 
