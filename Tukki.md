@@ -40,6 +40,13 @@ Aikaisemmassa kohdassa tarkastelin syslogia jossa näkyi, kun joku mystinen "age
 auth.log kertoo tarkempaa tietoa kirjautumistapahtumasta. Tulostuksessa näkyy päivämäärä sekä aika tapahtumalle. "systemd-logind" viittaa selvästi kirjautumiseen sekä koneen nimi "foo" edessä kertoo että virtuaalikoneelleni kirjauduttiin klo 13:33 tänään 30.1.
 "New session 2 of user lassiv" kertoo että omalle "lassiv" käyttäjälleni kirjauduttiin onnistuneesti
 
+Yritin seuraavaksi tarkastella apache2 kansion sisällä olevaa access.log tiedostoa, mutta en onnistunut. Virhe korjaantui kun sammutin apache2 serverin ja käynnistin uudestaan. Katselin access.log tiedoston sisältöä komennolla 
+
+    sudo tail /var/log/apache2/access.log
+    
+ ![image](https://user-images.githubusercontent.com/112076377/215476734-d4befc0e-317c-435b-83e9-38745614fc3e.png)
+
+
 
 ## b) Aiheuta 14:03 
 
