@@ -43,6 +43,17 @@ auth.log kertoo tarkempaa tietoa kirjautumistapahtumasta. Tulostuksessa näkyy p
 
 ## b) Aiheuta 14:03 
 
+var/log/syslog
+En saanut tahallani aiheutettua virheilmoitusta syslog tiedostoon. Onnistuin kuitenkin kirjoittamaan sinne komennolla logger
+
+    logger "System rebooted for hard disk upgrade"
+
+![image](https://user-images.githubusercontent.com/112076377/215474776-c8b8f8eb-a97c-41b9-b01a-679f1f5570eb.png)
+
+
+
+
+
 Kävin aikaisemmin läpi miten onnistunut kirjautuminen näkyi tiedostossa auth.log 
 
 Aiheutin tahallisen sudo komennon virheen kirjoittamalla salasanani väärin 
