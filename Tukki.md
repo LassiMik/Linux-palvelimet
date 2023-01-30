@@ -29,6 +29,16 @@ Tulostuksessa näkyy paikallinen aika (kirjauduin 13:33 tietokoneelle), sekä p�
 Kellonajan ja päivämäärän jälkeen tulostuu virtuaalikoneen nimi "foo".
 Foon jälkeen näkyy network managerin antama koodi 458 joka kertoo inffoa tapahtumasta "agent registered"
 
+Seuraava tiedosto jota tarkastelen on auth.log 
+Tulostin auth.log sisällön samasta hakemistosta, jossa edellisen tehtävän komennolla
+
+    sudo cat auth.log
+    
+ 
+![image](https://user-images.githubusercontent.com/112076377/215468377-833af958-9f1a-4169-b73f-6d79c290c657.png)
+
+Aikaisemmassa kohdassa tarkastelin syslogia jossa näkyi, kun joku mystinen "agentti" kirjautui omalle foo koneelleni
+Auth.log kertoo 
 
 ## Lähteet
 - [1] https://news.ycombinator.com/item?id=210321362  
