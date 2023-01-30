@@ -34,11 +34,14 @@ Tulostin auth.log sisällön samasta hakemistosta, jossa edellisen tehtävän ko
 
     sudo cat auth.log
     
- 
 ![image](https://user-images.githubusercontent.com/112076377/215468377-833af958-9f1a-4169-b73f-6d79c290c657.png)
 
 Aikaisemmassa kohdassa tarkastelin syslogia jossa näkyi, kun joku mystinen "agentti" kirjautui omalle foo koneelleni
-auth.log kertoo tarkempaa tietoa kirjautumistapahtumasta. 
+auth.log kertoo tarkempaa tietoa kirjautumistapahtumasta. Tulostuksessa näkyy päivämäärä sekä aika tapahtumalle. "systemd-logind" viittaa selvästi kirjautumiseen sekä koneen nimi "foo" edessä kertoo että virtuaalikoneelleni kirjauduttiin klo 13:33 tänään 30.1.
+"New session 2 of user lassiv" kertoo että omalle "lassiv" käyttäjälleni kirjauduttiin onnistuneesti
+
+
+
 
 ## Lähteet
 - [1] https://news.ycombinator.com/item?id=210321362  
