@@ -48,6 +48,7 @@ Kävin aikaisemmin läpi miten onnistunut kirjautuminen näkyi tiedostossa auth.
 Aiheutin tahallisen sudo komennon virheen kirjoittamalla salasanani väärin 
 ![image](https://user-images.githubusercontent.com/112076377/215472995-c20162a4-e87f-4401-a790-44b35c12c959.png)
 
+Tuttuun tapaan auth.log tulostaa tapahtuman kellonajan sekä päivämäärän rivin alkuun. Sen jälkeen komento antaa virheilmoituksen "authentication failure" koska ei pysty tunnistamaan minua väärällä salasanalla. auth.log myös tulostaa käyttäjän nimen joka yritti käyttää sudoa
 
 
 ## Lähteet
