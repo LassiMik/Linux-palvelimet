@@ -53,7 +53,9 @@ Yritin seuraavaksi tarkastella apache2 kansion sisällä olevaa access.log tiedo
 access.log tiedostossa ensimmäisenä tulee ip osoite, josta pyyntö sivustolle on tehty. Tapauksessa, jossa sivustomme on localhostilla ip osoite on 127.0.0.1.
 Seuraavaksi access.log näyttää päivämäärän sekä kellonajan milloin pyyntö on tehty. Kello näkyy suomen aikaa normaalissa ajassa sekä perässä on vielä aikavyöhyketunniste (+0200), jos joku haluaa kääntää suomen ajan omalle aikavyöhykkeelleen.
 
-Aikavyöhykkeen jälkeen tulostuu "Get" pyyntö eli java-kurssilta tuttu nettisivulta datan pyyntö tai normaalin nettisurffaajan sivustolle siirtyminen. Seuraava tulkittavissa oleva lause on selain jolla pyyntö tehtiin eli testitapauksessa "Mozilla".
+Aikavyöhykkeen jälkeen tulostuu "Get" pyyntö eli java-kurssilta tuttu nettisivulta datan pyyntö tai normaalin nettisurffaajan sivustolle siirtyminen. 
+Get pyynnön jälkeinen koodi "200" tarkoittaa tapauksessa, että sivuston käyttäjä on onnistuneesti siirtynyt sivustolle
+Seuraava tulkittavissa oleva lause on selain jolla pyyntö tehtiin eli testitapauksessa "Mozilla".
 
 ### apache2/error.log
 
