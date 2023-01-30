@@ -1,6 +1,6 @@
 # Tukki
 
-## Hacker news [1] [2]
+## Hacker news [1]
   Valitsin tarkasteluun linux aiheisen artikkelin "An interactive cheatsheet tool for the command-line"
   - Tarkoitus nopeuttaa pitkien komentokehote scriptien kirjoittamista ja syntaksin muistamista
   - Kaikki cheatsheetissä olevat scriptit on myös tehtävissä ilman cheatsheettiä
@@ -9,4 +9,3 @@
 
 ## Lähteet
 - [1] https://news.ycombinator.com/item?id=210321362  
-- [2] https://github.com/denisidoro/navi
