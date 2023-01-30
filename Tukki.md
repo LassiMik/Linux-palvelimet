@@ -55,6 +55,18 @@ Seuraavaksi access.log näyttää päivämäärän sekä kellonajan milloin pyyn
 
 Aikavyöhykkeen jälkeen tulostuu "Get" pyyntö eli java-kurssilta tuttu nettisivulta datan pyyntö tai normaalin nettisurffaajan sivustolle siirtyminen. Seuraava tulkittavissa oleva lause on selain jolla pyyntö tehtiin eli testitapauksessa "Mozilla".
 
+### apache2/error.log
+
+Tarkastelen apachen error logia komennolla
+    
+    sudo tail /var/log/apache2/error.log
+    
+Oma error.log sisältää vain vähän tekstiä onneksi
+
+![image](https://user-images.githubusercontent.com/112076377/215479639-fd23ccde-059d-4e2d-ac75-0eeeefe43277.png)
+
+Tulostuksessa näkyy, kun jouduin käynnistämään apache serverin uudestaan koska logit olivat tyhjät. Tulostuksessa näkyy ensimmäisenä päivämäärä sekä kellonaika erittäin tarkasti sekunnin kymmenestuhannesosiin asti sekä vuosi. Viimeiseksi teksti "configured -- resuming normal operations" kertoo vielä mikä login tapahtuma oli eli palataan normaaliin toimivuuteen.
+
 ## b) Aiheuta 14:03 
 
 ### syslog
@@ -77,6 +89,10 @@ Aiheutin tahallisen sudo komennon virheen kirjoittamalla salasanani väärin
 
 Tuttuun tapaan auth.log tulostaa tapahtuman kellonajan sekä päivämäärän rivin alkuun. Sen jälkeen komento antaa virheilmoituksen "authentication failure" koska ei pysty tunnistamaan minua väärällä salasanalla. auth.log myös tulostaa käyttäjän nimen joka yritti käyttää sudoa
 
+## Loppusanat xx
+
+Sain tehtävät valmiiksi kello xx
 
 ## Lähteet
 - [1] https://news.ycombinator.com/item?id=210321362  
+- https://terokarvinen.com/2023/linux-palvelimet-2023-alkukevat/#h4-tukki
