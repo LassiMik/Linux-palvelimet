@@ -91,9 +91,9 @@ Aiheutin tahallisen sudo komennon virheen kirjoittamalla salasanani väärin
 
 Tuttuun tapaan auth.log tulostaa tapahtuman kellonajan sekä päivämäärän rivin alkuun. Sen jälkeen komento antaa virheilmoituksen "authentication failure" koska ei pysty tunnistamaan minua väärällä salasanalla. auth.log myös tulostaa käyttäjän nimen joka yritti käyttää sudoa
 
-## access.log
+### apache2/access.log
 
-En onnistunut saamaan virheilmoitusta access.log tiedostoon vaikka syötin vääriä osoitteita. Tarkastelin access.log tiedostoa komennolla
+Yritin saada virhetulosta tiedostoon access.log syöttämällä virheellisisä sivuston osoitteita ja seuraavamalla logia komennolla
     
     sudo tail -f /var/log/apache2/access.log
     
@@ -101,8 +101,10 @@ Jossa -f tarkoittaa tiedoston jatkuvaa seuraamista. Esimerkki väärästä osoit
 
 ![image](https://user-images.githubusercontent.com/112076377/215481977-4761414e-7670-4819-ad54-54c68ccb620e.png)
 
-Pilkoin aiemmin tehtävässä mitä access.log sisältää ja erona aikaisempaan tarkasteluun "get" pyynnön jälkeinen "/%C3%A4%C3%A4" oli "/ää" eli ääkkösten käyttö
-    
+Pilkoin aiemmin tehtävässä mitä access.log sisältää ja erona aikaisempaan tarkasteluun "get" pyynnön jälkeinen "/%C3%A4%C3%A4" oli "/ää" eli ääkkösten käyttö. Osoitteen jälkeinen koodi 404 tarkoittaa, että sivustoa johon käyttäjä yritti siirtyä ei ole olemassa.
+
+### apache2/error.log
+
 ## Loppusanat xx
 
 Sain tehtävät valmiiksi kello xx
