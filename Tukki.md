@@ -46,7 +46,8 @@ Yritin seuraavaksi tarkastella apache2 kansion sisällä olevaa access.log tiedo
     
  ![image](https://user-images.githubusercontent.com/112076377/215476734-d4befc0e-317c-435b-83e9-38745614fc3e.png)
 
-
+access.log tiedostossa ensimmäisenä tulee ip osoite, josta pyyntö sivustolle on tehty. Tapauksessa, jossa sivustomme on localhostilla ip osoite on 127.0.0.1.
+Seuraavaksi access.log näyttää päivämäärän sekä kellonajan milloin pyyntö on tehty. Kello näkyy suomen aikaa normaalissa ajassa sekä perässä on vielä aikavyöhyketunniste (+0200), jos joku haluaa kääntää suomen ajan omalle aikavyöhykkeelleen. 
 
 ## b) Aiheuta 14:03 
 
