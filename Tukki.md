@@ -21,7 +21,8 @@ sain valmiiksi x) kohdan 12:50
 
 ![image](https://user-images.githubusercontent.com/112076377/215466688-23240e5d-e161-4995-8f4f-74929716dc53.png)
 
-
+ Esimerkkirivi tulostetusta tiedosta edellisellä komennolla
+ 
 
 ## Lähteet
 - [1] https://news.ycombinator.com/item?id=210321362  
