@@ -10,7 +10,7 @@ Aloitin tehtävien teon 12:31 30.1.2023
   - Linuxin kokeneemmat kommentoijat pitävät cheatsheettiä turhana, koska tuntevat linuxin komentokehotteen syntaksin kuin omat taskunsa
   
 sain valmiiksi x) kohdan 12:50 
-## a) tukki 12:51
+## a) Tukki 12:51
  siirryin var/log/ kansioon juuri kansiosta komennolla
  
     cd var/log
@@ -41,7 +41,7 @@ auth.log kertoo tarkempaa tietoa kirjautumistapahtumasta. Tulostuksessa näkyy p
 "New session 2 of user lassiv" kertoo että omalle "lassiv" käyttäjälleni kirjauduttiin onnistuneesti
 
 
-## Aiheuta 14:03 
+## b) Aiheuta 14:03 
 
 Kävin aikaisemmin läpi miten onnistunut kirjautuminen näkyi tiedostossa auth.log 
 
