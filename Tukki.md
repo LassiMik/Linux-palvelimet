@@ -44,9 +44,11 @@ auth.log kertoo tarkempaa tietoa kirjautumistapahtumasta. Tulostuksessa näkyy p
 ## Aiheuta 14:03 
 
 Kävin aikaisemmin läpi miten onnistunut kirjautuminen näkyi tiedostossa auth.log 
-![image](https://user-images.githubusercontent.com/112076377/215472995-c20162a4-e87f-4401-a790-44b35c12c959.png)
 
 Aiheutin tahallisen sudo komennon virheen kirjoittamalla salasanani väärin 
+![image](https://user-images.githubusercontent.com/112076377/215472995-c20162a4-e87f-4401-a790-44b35c12c959.png)
+
+
 
 ## Lähteet
 - [1] https://news.ycombinator.com/item?id=210321362  
