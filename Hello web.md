@@ -15,22 +15,33 @@ Tehtävää varten kuuntelin jakson [1] "Bootstrapping a leather supply business
  
 ## a) Apachen esimerkkisivun vaihto 16:39
 
-Siirryin apachen asennuksen yhteydessä luomaan kansioon /var/www/html syöttämällä komentokehotteeseen komennon 
+Korvasin apachen tekemän esimerkkisivun komennolla
 
-    cd var/www/html
-    
-Ja kansiossa suoritin komennon 
+    echo Moi | sudo tee var/www/html/index.html
 
-    nano index.html 
-    
-Luodakseni html tiedoston, joka näyttää selaimessa tältä
+Joka näyttää selaimessa tältä
 
 ![image](https://user-images.githubusercontent.com/112076377/216075704-edd29fd6-a69d-498c-8f01-cb83140060bc.png)
 
+## b) käyttäjien kotisivut 16:54
+
+Kertasin tunnilla käytyä aihetta apachen servereistä [2]
+Menin käyttäjäkohtaiseen public_html kansioon komennolla
+
+    cd home/lassiv/public_html
+    
+Ja tein sinne esimerkki html sivun hello.html komennolla
+
+    nano hello.html
+    
+Joka näytti selaimessa tältä 
+
+![image](https://user-images.githubusercontent.com/112076377/216085164-31e4e4ae-0fe9-4827-80bd-d849a861e457.png)
 
 
 
 ## Lähteet 
 
 [1] https://indiebites.com/74
+[2] https://linuxzoo.net/page/tut_eapache.html
 
