@@ -26,6 +26,7 @@ Joka näyttää selaimessa tältä
 ## b) käyttäjien kotisivut 16:54
 
 Kertasin tunnilla käytyä aihetta apachen servereistä [2]
+
 Menin käyttäjäkohtaiseen public_html kansioon komennolla
 
     cd home/lassiv/public_html
@@ -72,7 +73,13 @@ Tältä näytti valmis tiedosto:
 
 Tarkastin vielä miltä se näyttää selaimen kautta
 
-![image](https://user-images.githubusercontent.com/112076377/216093284-6f230ce0-144b-408a-b192-8d59578d14ac.png)
+![image](https://user-images.githubusercontent.com/112076377/216093421-aab17bd3-a692-4453-aa7b-01896094e29e.png)
+
+## Loppusanat
+
+Tehtävät sain valmiiksi 17:51
+
+Eniten vaikeuksia tehtävissä tuotti b) kohta, käyttäjien kotisivujen luonti, koska en aluksi ymmärtänyt mitä siinä haettiin
 
 
 
