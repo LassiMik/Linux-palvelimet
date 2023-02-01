@@ -38,6 +38,23 @@ Joka näytti selaimessa tältä
 
 ![image](https://user-images.githubusercontent.com/112076377/216085164-31e4e4ae-0fe9-4827-80bd-d849a861e457.png)
 
+## c) uuden käyttäjän luonti 17:29
+
+Loin uuden testikäyttäjän komennolla 
+
+    sudo adduser lassivar
+   
+Jonka jälkeen lisäsin "real name" kohtaan testikäyttäjä minun käyttäjälleni. loput kohdat jätin tyhjäksi entteriä painamalla.
+
+![image](https://user-images.githubusercontent.com/112076377/216087333-79abbf01-6fa9-4664-8302-dc83ac888274.png)
+
+Kirjauduin ulos pääkäyttäjältäni ja sisään uudelle käyttäjälleni. Tämän jälkeen tietokone oli osannut tehdä käyttäjälleni omat kansiot, kuten public_html.
+Kävin vielä kokeilemassa toimiihan uuden käyttäjän kotisivut
+
+![image](https://user-images.githubusercontent.com/112076377/216089129-7eee7b5e-96d4-4455-b0f8-4c864d31a467.png)
+
+
+
 
 
 ## Lähteet 
