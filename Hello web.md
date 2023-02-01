@@ -65,10 +65,14 @@ Kun olin hakemistossa kirjoitin komennon
     nano hello.html
     
 Jotta pääsin muokkaamaan / tekemään tiedoston hello.html. 
+
 Tältä näytti valmis tiedosto:
 
 ![image](https://user-images.githubusercontent.com/112076377/216093033-f8b522c6-2422-4ae1-92b6-1d512c7d7208.png)
 
+Tarkastin vielä miltä se näyttää selaimen kautta
+
+![image](https://user-images.githubusercontent.com/112076377/216093284-6f230ce0-144b-408a-b192-8d59578d14ac.png)
 
 
 
