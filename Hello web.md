@@ -53,6 +53,21 @@ Kävin vielä kokeilemassa toimiihan uuden käyttäjän kotisivut
 
 ![image](https://user-images.githubusercontent.com/112076377/216089129-7eee7b5e-96d4-4455-b0f8-4c864d31a467.png)
 
+## d) validi html5 sivu 17:40
+
+Aloitin html sivun tekemisen muokkaamalla jo aikaisemmassa tehtävässä tekemääni html sivua pääkäyttäjäni public_html kansioon.
+Siirryin kansioon komennolla
+
+    cd /home/lassiv/public_html/
+    
+Kun olin hakemistossa kirjoitin komennon 
+
+    nano hello.html
+    
+Jotta pääsin muokkaamaan / tekemään tiedoston hello.html. 
+Tältä näytti valmis tiedosto:
+
+![image](https://user-images.githubusercontent.com/112076377/216093033-f8b522c6-2422-4ae1-92b6-1d512c7d7208.png)
 
 
 
