@@ -71,6 +71,11 @@ Jonka jälkeen sain error viestin
 
 ![image](https://user-images.githubusercontent.com/112076377/216969999-d4577fff-4ded-42f9-9753-4a29665d4258.png)
 
+Seuraavaksi kokeilin selvittää virheen käyttämällä komentoa
+
+    sudo apache2ctl configtest
+    
+![image](https://user-images.githubusercontent.com/112076377/216971023-26f9547e-0d6d-4815-af8e-d4e79feb55a4.png)
 
 
 ## Lähteet
