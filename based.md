@@ -85,9 +85,19 @@ Kävin myös katsomassa miltä apachen error.log tiedosto näyttää
 
 ![image](https://user-images.githubusercontent.com/112076377/216971714-2d80ad62-a6dd-44cd-95e4-2d2bc1c95775.png)
 
+Error logista löysin yhden errorin joka täsmäsi aikaan, jolloin yritin käynnistää apache serveriä uudestaan virheellisellä conf tiedostolla.
+Error.log tiedostossa annetaan virhekoodi AH00491 ja yritin etsiä tietoa siitä. [4] AH00491 tarkoittaa apachen uudelleen käynnistämistä. Ilmeisesti ainoa lokitieto mitä error.logiin on tullut on vain uudelleenkäynnistys yritys. 
+
+sudo apache2ctl configtest komento antoi parempaa tietoa mikä config tiedostossa on pielessä
+
+## Loppusanat
+Sain tehtävät valmiiksi 14:38
+
 ## Lähteet
 [1] https://httpd.apache.org/docs/2.4/getting-started.html
 
 [2] https://httpd.apache.org/docs/current/vhosts/name-based.html
 
 [3] https://stackoverflow.com/questions/49944942/ls-cannot-open-directory-permission-denied
+
+[4] https://stackoverflow.com/questions/1661802/apache-server-keeps-crashing-caught-sigterm-shutting-down
