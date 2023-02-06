@@ -38,6 +38,10 @@ Jonka jälkeen annoin kaikille käyttäjille oikeudet editoida tiedostoa komenno
 
     sudo chmod -R 777 /home/lassiv/public_site/
 
+Käynnistin sen jälkeen apachen uudestaan komennolla
+
+    sudo service apache2 restart
+
 Uusi html sivuni toimii ja sitä voi editoida ilman sudo oikeuksia
 
 ![image](https://user-images.githubusercontent.com/112076377/216968104-59ce6ed6-21ed-448b-bf94-f918d3d4bcf8.png)
