@@ -77,6 +77,13 @@ Seuraavaksi kokeilin selvittää virheen käyttämällä komentoa
     
 ![image](https://user-images.githubusercontent.com/112076377/216971023-26f9547e-0d6d-4815-af8e-d4e79feb55a4.png)
 
+Kävin myös katsomassa miltä apachen error.log tiedosto näyttää
+
+    cd /var/log/
+    
+    sudo cat apache2/error.log
+
+![image](https://user-images.githubusercontent.com/112076377/216971714-2d80ad62-a6dd-44cd-95e4-2d2bc1c95775.png)
 
 ## Lähteet
 [1] https://httpd.apache.org/docs/2.4/getting-started.html
