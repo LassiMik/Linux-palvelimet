@@ -20,7 +20,7 @@ Apache - Name-based Virtual Host Support [2]
 - Name-based virtual hostingin käyttöönottamiseksi sinun on luotava jokaiselle hostille lohko, jossa on vähintään ServerName-direktiivi sekä DocumentRoot-direktiivi. 
 - Name-based virtual hosting on paljon nykyaikaisempi ja käytetympi kuin IP-based virtual hosting.
 
-
+## a) Apachelle uusi etusivu 13:36
 
 
 
