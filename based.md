@@ -26,7 +26,13 @@ Nykyinen apachen etusivuni näyttää tältä:
 
 ![image](https://user-images.githubusercontent.com/112076377/216962014-4bdd7ae7-0852-4871-a3e9-1e832f976d22.png)
 
+Tein uuden html tiedoston newindex.html käyttämällä komentoa 
 
+    nano newindex.html
+    
+Jonka jälkeen annoin kaikille käyttäjille oikeudet editoida tiedostoa komennolla
+
+    sudo chmod -R 777 /home/lassiv/public_site/
 
 
 
@@ -39,3 +45,5 @@ Nykyinen apachen etusivuni näyttää tältä:
 [1] https://httpd.apache.org/docs/2.4/getting-started.html
 
 [2] https://httpd.apache.org/docs/current/vhosts/name-based.html
+
+[3] https://stackoverflow.com/questions/49944942/ls-cannot-open-directory-permission-denied
