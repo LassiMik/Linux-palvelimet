@@ -49,6 +49,20 @@ Uusi html sivuni toimii ja sitä voi editoida ilman sudo oikeuksia
 ![image](https://user-images.githubusercontent.com/112076377/216968597-d748c475-9c2b-40df-b66e-ec8575e08a26.png)
 
 
+## b) apachen asetustiedostoon kirjoitusvirhe 14:17
+
+Siirryin apachen config tiedostoihin komennolla 
+
+    cd /etc/apache2/sites-available/
+
+Jonka jälkeen editoin config tiedostoani newdefault.conf komennolla
+
+    sudo nano newdefault.conf 
+
+Ja poistin sieltä yhden closing tagin
+
+![image](https://user-images.githubusercontent.com/112076377/216969609-bec74a6b-2e62-47ce-a014-23abd9f6092d.png)
+
 
 
 
