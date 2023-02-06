@@ -63,6 +63,13 @@ Ja poistin sieltä yhden closing tagin
 
 ![image](https://user-images.githubusercontent.com/112076377/216969609-bec74a6b-2e62-47ce-a014-23abd9f6092d.png)
 
+Käynnistin apache serverini uudestaan komennolla 
+
+    sudo service apache2 restart
+    
+Jonka jälkeen sain error viestin
+
+![image](https://user-images.githubusercontent.com/112076377/216969999-d4577fff-4ded-42f9-9753-4a29665d4258.png)
 
 
 
