@@ -23,6 +23,7 @@ Apache - Name-based Virtual Host Support [2]
 ## a) Apachelle uusi etusivu 13:36
 
 Nykyinen apachen etusivuni näyttää tältä:
+
 ![image](https://user-images.githubusercontent.com/112076377/216962014-4bdd7ae7-0852-4871-a3e9-1e832f976d22.png)
 
 
