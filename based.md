@@ -26,7 +26,11 @@ Nykyinen apachen etusivuni näyttää tältä:
 
 ![image](https://user-images.githubusercontent.com/112076377/216962014-4bdd7ae7-0852-4871-a3e9-1e832f976d22.png)
 
-Tein uuden html tiedoston index.html käyttämällä komentoa 
+Poistin vanhan pääsivuni käyttäen komentoa
+
+    rm index.html
+
+ja tein uuden html tiedoston index.html käyttämällä komentoa 
 
     nano index.html
     
