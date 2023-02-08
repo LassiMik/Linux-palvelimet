@@ -55,6 +55,15 @@ Aloitin tehtävien teon klo 14:49 8.2
       
 ## a) oma virtuaalipalvelin 15:21
 
+Valitsin DigitalOceanin virtuaalipalvelin tarjoajakseni, koska sain github educationin avulla ilmaisen palvelimen vuodeksi.
+Hyödyntääkseni github educationia jouduin tekemään uuden github käyttäjän, jossa on kouluni sähköpostiosoite.
+
+Käyttäjän tekemisessä sivulle ilmeni ongelmia, kun jouduin odottamaan vahvistussähköpostia tunnin. Saatuani sähköpostin siirryin luomaan ensimmäistä projektia.
+Projektin tehtyäni tein uuden dropletin, joka tarkoittaa uuden virtuaalipalvelimen luontia. Valitsin palvelimekseni halvimman mahdollisen, jossa on vähintään 1GB ramia.
+
+Valitsin vielä käyttöjärjestelmäkseni Debian 11. 
+
+![image](https://user-images.githubusercontent.com/112076377/217543960-da1a9c78-2db8-4622-8fc6-aa9c165cb76b.png)
 
 
 
