@@ -124,6 +124,16 @@ Apachen latauksen jälkeen muutin apachen testietusivun komennolla
 Muutin vielä yhtä ufw asetusta niin että sivustolleni pääsee
 
       sudo ufw allow 80/tcp
+      
+Seuraavaksi testasin virtuaalikoneella toimiiko nettisivuni 
+
+![image](https://user-images.githubusercontent.com/112076377/217557500-18f5d13c-b5a2-42d1-bffe-db655d577bce.png)
+
+Kokeilin vielä käydä omalla koneellani nettisivulla 
+
+![image](https://user-images.githubusercontent.com/112076377/217557277-0b21acfd-4943-4280-818e-e5393b05ab39.png)
+
+
 
 ## d) merkkejä murtautumisyrityksistä 15:52
 
