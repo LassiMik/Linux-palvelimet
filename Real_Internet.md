@@ -74,3 +74,6 @@ Aloitin tehtävien teon klo 14:49 8.2
 
 
 
+## Lähteet
+
+[1] https://terokarvinen.com/2017/first-steps-on-a-new-virtual-private-server-an-example-on-digitalocean/
