@@ -146,6 +146,10 @@ Tarkastelin virtuaalipalvelimellani ensimmäiseksi auth.log tiedostoa komennolla
 Kansio oli täynnä virheellisiä kirjautumisyrityksiä koko viime yöltä ja tältä päivältä. Kuvassa esimerkki yhdestä virheellisestä kirjautumisyrityksestä
 Murtautuja oli yrittänyt kirjautua IP-osoitteesta 52.187.109.0 ja portista 52780
 
+![image](https://user-images.githubusercontent.com/112076377/217565665-079ee941-0812-4072-a935-ed834ba5d31c.png)
+
+[2] Tarkastelin yhtä IP-osoitetta tarkemmin IP-lookup sivustolla. Kirjautujan IP-osoite ohjasi singaporeen. En luottasi sijaintitietoihin kokonaan, koska on tapoja kiertää oman IP-osoitteen antaminen.
+
 Seuraavaksi tarkastelin access.log tiedostoa komennolla
 
       cat /var/log/apache2/access.log
@@ -162,3 +166,5 @@ Tehtävät sain valmiiksi klo 16:20 8.2
 ## Lähteet
 
 [1] https://terokarvinen.com/2017/first-steps-on-a-new-virtual-private-server-an-example-on-digitalocean/
+
+[2] https://whatismyipaddress.com/ip-lookup
