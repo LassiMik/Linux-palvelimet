@@ -144,6 +144,8 @@ Tarkastelin virtuaalipalvelimellani ensimmäiseksi auth.log tiedostoa komennolla
 ![image](https://user-images.githubusercontent.com/112076377/217552812-70336f52-a085-4222-a753-0d2b9877f198.png)
 
 Kansio oli täynnä virheellisiä kirjautumisyrityksiä koko viime yöltä ja tältä päivältä. Kuvassa esimerkki yhdestä virheellisestä kirjautumisyrityksestä
+Murtautuja oli yrittänyt kirjautua IP-osoitteesta
+
 
 Seuraavaksi tarkastelin access.log tiedostoa komennolla
 
