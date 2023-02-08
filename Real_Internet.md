@@ -76,10 +76,9 @@ Ja syötin salasanan, jolla kirjaudun DigitalOceaniin. Kun pääsin kirjauduttua
 
       sudo apt-get install ufw
       
-Ja muutin paria ufw asetusta etten lukitse itseäni ulos palvelimelta
+Ja muutin ufw asetusta etten lukitse itseäni ulos palvelimelta
 
       sudo ufw allow 22/tcp
-      sudo ufw allow 80/tcp
 
 ja palomuurin laitto päälle
 
@@ -110,11 +109,23 @@ Jossa vaihdoin seuraavan kohdan:
 
       sudo service ssh restart
 
+Nyt kun virtuaalipalvelimeni on kunnossa siirryn lataamaan apachea ja perustamaan web palvelinta
 
+## Web palvelin omalle virtuaalipalvelimelleni
 
+Aloitin lataamalla apachen komennolla
 
+      sudo apt-get install apache2
+      
+Apachen latauksen jälkeen muutin apachen testietusivun komennolla
 
+      echo moi | sudo tee /var/www/html/index.html
 
+Muutin vielä yhtä ufw asetusta niin että sivustolleni pääsee
+
+      sudo ufw allow 80/tcp
+
+## d) merkkejä murtautumisyrityksistä 15:52
 
 
 
