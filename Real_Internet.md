@@ -96,9 +96,19 @@ Alkutoimien jälkeen tein vielä käyttäjän itselleni, jotta en joutuisi käyt
       sudo adduser lassiv sudo
       sudo adduser lassiv adm
 
+Roottiin kirjautumisen salasanalla esto 
+
+      sudo usermod --lock root
+      
+Sekä vielä SSH kirjautumisen roottiin estäminen
+
+      sudoedit /etc/ssh/sshd_config
+      
+Jossa vaihdoin seuraavan kohdan:
+
 ![image](https://user-images.githubusercontent.com/112076377/217545295-d6091f03-4108-4bf0-a96e-3d7d35b6868b.png)
 
-
+      sudo service ssh restart
 
 
 
