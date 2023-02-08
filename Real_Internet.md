@@ -148,7 +148,7 @@ Murtautuja oli yrittänyt kirjautua IP-osoitteesta 52.187.109.0 ja portista 5278
 
 ![image](https://user-images.githubusercontent.com/112076377/217565665-079ee941-0812-4072-a935-ed834ba5d31c.png)
 
-[2] Tarkastelin yhtä IP-osoitetta tarkemmin IP-lookup sivustolla. Kirjautujan IP-osoite ohjasi singaporeen. En luottasi sijaintitietoihin kokonaan, koska on tapoja kiertää oman IP-osoitteen antaminen.
+[2] Tarkastelin yhtä IP-osoitetta tarkemmin IP-lookup sivustolla. Kirjautujan IP-osoite ohjasi singaporeen. En luottasi IP-osoitteen sijaintiin, koska IP-lookup kertoo IP:n olevan proxy palvelimen.
 
 Seuraavaksi tarkastelin access.log tiedostoa komennolla
 
