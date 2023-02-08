@@ -15,6 +15,4 @@ Aloitin tehtävien teon klo 14:49 8.2
 - Heti virtuaalipalvelimelle kirjautumisen jälkeen kannattaa ladata ufw palomuuri sekä asettaa pari asetusta oikein, ettet lukitse itseäsi ulos omalta palvelimeltasi
 
       sudo ufw allow 22/tcp
-      
-      
       sudo ufw enable
