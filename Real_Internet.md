@@ -127,10 +127,19 @@ Muutin vielä yhtä ufw asetusta niin että sivustolleni pääsee
 
 ## d) merkkejä murtautumisyrityksistä 15:52
 
+Tarkastelin virtuaalipalvelimellani ensimmäiseksi auth.log tiedostoa komennolla
 
+      cat /var/log/auth.log
 
+![image](https://user-images.githubusercontent.com/112076377/217552812-70336f52-a085-4222-a753-0d2b9877f198.png)
 
+Kansio oli täynnä virheellisiä kirjautumisyrityksiä koko viime yöltä ja tältä päivältä. Kuvassa esimerkki yhdestä virheellisestä kirjautumisyrityksestä
 
+Seuraavaksi tarkastelin access.log tiedostoa komennolla
+
+      cat /var/log/apache2/access.log
+
+![image](https://user-images.githubusercontent.com/112076377/217554103-d65bb5ff-9398-46bf-9d6a-d24bad9be316.png)
 
 
 
