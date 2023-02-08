@@ -66,6 +66,37 @@ Valitsin vielä käyttöjärjestelmäkseni Debian 11.
 ![image](https://user-images.githubusercontent.com/112076377/217543960-da1a9c78-2db8-4622-8fc6-aa9c165cb76b.png)
 
 
+## b) alkutoimet omalla virtuaalipalvelimella 15:31
+
+Kirjauduin juuri luomalleni virtuaalipalvelimelle komennolla
+
+      ssh root@palvelimen IP-osoite
+
+Ja syötin salasanan, jolla kirjaudun DigitalOceaniin. Kun pääsin kirjauduttua ensitöikseni latasin ufw palomuurin komennolla
+
+      sudo apt-get install ufw
+      
+Ja muutin paria ufw asetusta etten lukitse itseäni ulos palvelimelta
+
+      sudo ufw allow 22/tcp
+      sudo ufw allow 80/tcp
+
+ja palomuurin laitto päälle
+
+      sudo ufw enable
+
+Seuraavaksi päivitin kaikki palvelimen tiedostot komennolla 
+      
+      sudo apt-get update
+      sudo apt-get upgrade
+      
+Alkutoimien jälkeen tein vielä käyttäjän itselleni, jotta en joutuisi käyttämään roottia kokoajan komennoilla
+
+      sudo adduser lassiv
+      sudo adduser lassiv sudo
+      sudo adduser lassiv adm
+
+![image](https://user-images.githubusercontent.com/112076377/217545295-d6091f03-4108-4bf0-a96e-3d7d35b6868b.png)
 
 
 
