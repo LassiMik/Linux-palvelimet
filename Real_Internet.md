@@ -16,3 +16,61 @@ Aloitin tehtävien teon klo 14:49 8.2
 
       sudo ufw allow 22/tcp
       sudo ufw enable
+
+- Palomuurin tekemisen jälkeen uuden käyttäjän luonti
+
+      sudo adduser lassi
+      
+- Sekä oikeuksien antaminen 
+           
+      sudo adduser lassi sudo
+      sudo adduser lassi adm
+      sudo adduser lassi admin
+
+- Root käyttäjän lukitseminen uuden käyttäjän luonnin jälkeen
+
+      sudo usermod --lock root
+      
+- Sekä root kijautumisen estäminen SSH komennolla
+
+      sudoedit /etc/ssh/sshd_config
+          # ...
+          PermitRootLogin no
+          # ...
+      sudo service ssh restart
+
+- Seuraavaksi tulee päivittää kaikki koneen tiedostot helpolla komennolla
+
+      sudo apt-get update
+      sudo apt-get upgrade
+      
+- Toisen reiän tekeminen ufw palomuuriin, jotta käyttäjät pääsevät nettisivulle
+
+      sudo ufw allow 80/tcp
+
+- Apachella voi käyttää IP-osoitetta sivulle pääsemiseen, mutta vuokraamalla DNS nimen saat paljon käyttäjäystävällisemmän osoitteen sivustollesi kuten vartiainen.me
+- Palvelimen nimen toimivuutta voi kokeilla komennolla. Kokeile selaimella toimivuutta vasta, kun nimi oikeasti toimii. Muuten vanha ja väärä nimi tallentuu selaimesi paikalliseen nimipalvelimeen
+
+      host example.com dns1.registrar-servers.com
+      
+## a) oma virtuaalipalvelin 15:21
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
