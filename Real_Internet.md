@@ -141,8 +141,12 @@ Seuraavaksi tarkastelin access.log tiedostoa komennolla
 
 ![image](https://user-images.githubusercontent.com/112076377/217554103-d65bb5ff-9398-46bf-9d6a-d24bad9be316.png)
 
+Tänä aamuna klo 08:44 joku on yrittänyt lähettää post pyynnön osoitteeseen /boaform/admin/formLogin
 
+## Loppusanat 16:20
 
+Oli kiinnostavaa tarkastella oman palvelimen tapahtumia lokeista verrattuna localhost palvelimeen, jossa vain tarkasteltiin omaa liikkumista sivustolla.
+Tehtävät sain valmiiksi klo 16:20 8.2
 
 ## Lähteet
 
