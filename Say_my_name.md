@@ -12,8 +12,14 @@ Tein oman tilin namecheap sivustolle ja yhdistin oman github-education tilini si
 Vuokrattuani oman domainnimeni siirryin Advanced DNS kohtaan, jossa voin vaihtaa DNS nimen osoittamaan omaan aikaisemmin tehtyyn palvelimeen. Kun kokeilin vaihtaa mitä 
 sivustoni näyttää, kun kirjoitan osoitteen DNS nimenä vastaan tulee vain github pages tiedosto, jonka github automaattisesti loi. Vaihdoin github tilille, jonne pages repositorio luotiin ja kävin noudatin githubin ohjeita miten pages tiedosto otetaan alas [1]
 
+![image](https://user-images.githubusercontent.com/112076377/218263329-f405e106-5bbe-4271-b66a-e25ec06783a4.png)
 
 
+Tältä näytti valmiit advancedDNS asetukset. Lisäsin itse vain kaksi kohtaa ja loput namecheap oli luonut valmiiksi. Lisäsin vain nämä kaksi: 
+
+![image](https://user-images.githubusercontent.com/112076377/218263364-4b5656f0-2291-4c9a-a31b-a66ae942b622.png)
+
+ 
 
 
 
