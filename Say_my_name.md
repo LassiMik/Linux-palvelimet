@@ -31,7 +31,7 @@ Aloitin tutkimisen host komennolla.
 
     host lassivartiainen.me
 
-![image](https://user-images.githubusercontent.com/112076377/218264087-0fb1366f-ab60-4352-928b-763eb05844c7.png)
+![image](https://user-images.githubusercontent.com/112076377/218264171-8299a52c-401c-4379-9969-160beff74d32.png)
 
 
 
