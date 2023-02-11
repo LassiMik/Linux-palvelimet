@@ -19,7 +19,7 @@ Tältä näytti valmiit advancedDNS asetukset. Lisäsin itse vain kaksi kohtaa j
 
 ![image](https://user-images.githubusercontent.com/112076377/218263364-4b5656f0-2291-4c9a-a31b-a66ae942b622.png)
 
- Kun olin poistanut github pages linkin nettisivullani kesti noin 40 minuuttia, jonka jälkeen DNS nimi alkoi osoittamaan omalle palvelimelleni
+ Kun olin poistanut github pages -linkin nettisivullani kesti noin 40 minuuttia, jonka jälkeen DNS nimi alkoi osoittamaan omalle palvelimelleni
 
 
 
