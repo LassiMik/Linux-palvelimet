@@ -21,8 +21,9 @@ Tältä näytti valmiit advancedDNS asetukset. Lisäsin itse vain kaksi kohtaa j
 
  Kun olin poistanut github pages -linkin nettisivullani kesti noin 40 minuuttia, jonka jälkeen DNS nimi alkoi osoittamaan omalle palvelimelleni
 
+![image](https://user-images.githubusercontent.com/112076377/218263473-20a59f64-87d1-465d-8104-cd36aec22ea4.png)
 
-
+Sivustoni toimii!
 
 
 
