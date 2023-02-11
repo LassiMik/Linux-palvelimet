@@ -11,4 +11,4 @@ Tein oman tilin namecheap sivustolle ja yhdistin oman github-education tilini si
 github pages repositorion käyttäjälleni.
 
 Vuokrattuani oman domainnimeni siirryin Advanced DNS kohtaan, jossa voin vaihtaa DNS nimen osoittamaan omaan aikaisemmin tehtyyn palvelimeen. Kun kokeilin vaihtaa mitä 
-sivustoni näyttää, kun kirjoitan osoitteen DNS nimenä vastaan tulee vain github pages tiedosto, jonka github automaattisesti loi.
+sivustoni näyttää, kun kirjoitan osoitteen DNS nimenä vastaan tulee vain github pages tiedosto, jonka github automaattisesti loi. Vaihdoin github tilille, jonne pages repositorio luotiin ja kävin github pages asetuksista painamassa "unpublish site".
