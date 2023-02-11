@@ -33,10 +33,29 @@ Aloitin tutkimisen host komennolla.
 
 ![image](https://user-images.githubusercontent.com/112076377/218264171-8299a52c-401c-4379-9969-160beff74d32.png)
 
+Host komento tulostaa monta eri IP-osoitetta, jotka namecheap loi valmiiksi sekä oman palvelimeni IP-osoitteen, jonka laitoin ylemmässä kohdassa. IP-osotteiden lisäksi host tulostaa eforward1-5.registrar-servers.com, jotka ovat namecheapin omia osoitteita.
 
+Seuraavaksi tarkastelen omaa palvelintani dig komennolla [2]
+Lataan dig komennon 
 
+    sudo apt-get install dnsutils
+    
+Jonka jälkeen tarkastelin palvelintani komennolla
 
+    dig 164.90.178.115 lassivartiainen.me
+    
+Dig komennon jälkeinen osoite on palvelimeni IP-osoite, jonka jälkeen tulee palvelimeni DNS osoite.
 
-## Lähteet
+![image](https://user-images.githubusercontent.com/112076377/218265723-22c23811-5e39-4e43-a938-cb0822d40c83.png)
+
+![image](https://user-images.githubusercontent.com/112076377/218265709-197027fa-fe0a-4767-8064-a2222ce08ccb.png)
+
+En osaa tulkita dig komennosta muuta, kuin palvelimen osoitteen ja palvelimen vastausajan, joka oli 180ms DNS osoitteessa ja 16ms IP-osoitteessa
+
+Tehtävät sain valmiiksi 17:06
+
+## Lähteet 17:07
 
 [1] https://docs.github.com/en/enterprise-server@3.4/pages/getting-started-with-github-pages/unpublishing-a-github-pages-site
+
+[2] https://phoenixnap.com/kb/linux-dig-command-examples
