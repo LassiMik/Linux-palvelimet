@@ -25,8 +25,13 @@ Tältä näytti valmiit advancedDNS asetukset. Lisäsin itse vain kaksi kohtaa j
 
 Sivustoni toimii!
 
+## b) Oman DNS nimen tutkiminen 16:38
 
+Aloitin tutkimisen host komennolla.
 
+    host lassivartiainen.me
+
+![image](https://user-images.githubusercontent.com/112076377/218264087-0fb1366f-ab60-4352-928b-763eb05844c7.png)
 
 
 
