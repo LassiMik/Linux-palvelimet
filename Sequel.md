@@ -53,5 +53,9 @@ CRUDin U kohta eli Update on seuraavana vuorossa
 
 ![image](https://user-images.githubusercontent.com/112076377/219026584-8d5d1405-1053-4568-8d19-18475768d969.png)
 
+Joka näytti selectillä tältä 
+
+![image](https://user-images.githubusercontent.com/112076377/219026862-2946df81-2c25-4f62-85c9-ee2c99b36df1.png)
+
 
     
