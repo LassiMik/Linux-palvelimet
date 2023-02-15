@@ -49,6 +49,9 @@ Siirryin CRUDin R kohtaan eli read.
 
 ![image](https://user-images.githubusercontent.com/112076377/219026130-7d6c48bf-87b5-4ec7-8ece-9defd5d26b2b.png)
 
+CRUDin U kohta eli Update on seuraavana vuorossa
+
+![image](https://user-images.githubusercontent.com/112076377/219026584-8d5d1405-1053-4568-8d19-18475768d969.png)
 
 
     
