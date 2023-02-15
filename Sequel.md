@@ -61,5 +61,9 @@ Tein vielä uuden insertin deleteä varten
 
 ![image](https://user-images.githubusercontent.com/112076377/219027271-71cf0254-bfcd-4db6-8ba9-72ffb5b2f7fb.png)
 
+Ja viimeisenä CRUDin D kirjain eli Delete 
+
+![image](https://user-images.githubusercontent.com/112076377/219027696-8b919701-185b-4e54-bbbb-e46dc8bbaa61.png)
+
 
     
