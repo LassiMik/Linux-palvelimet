@@ -39,7 +39,7 @@ Testasin vielä tietokannan toimivuutta helpolla select lausekkeella
 
 Aloitin CRUDin C kohdasta eli Create 
 
-![image](https://user-images.githubusercontent.com/112076377/219024903-a43512d2-80da-4826-bbb1-e270f960b897.png)
+![image](https://user-images.githubusercontent.com/112076377/219025077-95bcffed-8f51-47e3-94b9-ea49b23cba50.png)
 
 
 
