@@ -57,5 +57,9 @@ Joka näytti selectillä tältä
 
 ![image](https://user-images.githubusercontent.com/112076377/219026862-2946df81-2c25-4f62-85c9-ee2c99b36df1.png)
 
+Tein vielä uuden insertin deleteä varten 
+
+![image](https://user-images.githubusercontent.com/112076377/219027271-71cf0254-bfcd-4db6-8ba9-72ffb5b2f7fb.png)
+
 
     
