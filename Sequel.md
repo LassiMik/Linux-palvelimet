@@ -33,7 +33,7 @@ Vaihdoin käyttäjälle, jolle tein tietokannan ja käyttäjän komennolla
     
 Testasin vielä tietokannan toimivuutta helpolla select lausekkeella
 
-![image](https://user-images.githubusercontent.com/112076377/219023935-71d57a4e-9761-45bf-95bd-97ee70b8441b.png)
+![image](https://user-images.githubusercontent.com/112076377/219023995-577578aa-bb2b-448c-ac00-aa03a0ab0593.png)
 
 
 
