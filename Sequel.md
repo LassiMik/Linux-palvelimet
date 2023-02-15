@@ -45,6 +45,10 @@ Seuraavaksi täytin tietokantaan vähän tietoa, jota voin testata
 
 ![image](https://user-images.githubusercontent.com/112076377/219025833-7a76ebcb-4865-4c57-b460-0a59472eea8c.png)
 
+Siirryin CRUDin R kohtaan eli read. 
+
+![image](https://user-images.githubusercontent.com/112076377/219026130-7d6c48bf-87b5-4ec7-8ece-9defd5d26b2b.png)
+
 
 
     
