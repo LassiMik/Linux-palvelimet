@@ -65,5 +65,15 @@ Ja viimeisenä CRUDin D kirjain eli Delete
 
 ![image](https://user-images.githubusercontent.com/112076377/219027696-8b919701-185b-4e54-bbbb-e46dc8bbaa61.png)
 
+## Loppusanat
 
+Sain tehtävät valmiiksi 14:32 
+
+Olin jo aikaisemmin Haaga-Heliassa opiskellut SQL komentoja, joten tehtävät eivät aiheuttaneet vaikeuksia 
+
+# Lähteet 
+
+https://terokarvinen.com/2016/03/03/install-postgresql-on-ubuntu-new-user-and-database-in-3-commands/
+
+https://terokarvinen.com/2016/03/05/postgresql-install-and-one-table-database-sql-crud-tutorial-for-ubuntu/
     
