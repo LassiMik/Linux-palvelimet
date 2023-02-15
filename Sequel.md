@@ -35,6 +35,12 @@ Testasin vielä tietokannan toimivuutta helpolla select lausekkeella
 
 ![image](https://user-images.githubusercontent.com/112076377/219023995-577578aa-bb2b-448c-ac00-aa03a0ab0593.png)
 
+## b) CRUD 14:15
+
+Aloitin CRUDin C kohdasta eli Create 
+
+![image](https://user-images.githubusercontent.com/112076377/219024903-a43512d2-80da-4826-bbb1-e270f960b897.png)
+
 
 
 
