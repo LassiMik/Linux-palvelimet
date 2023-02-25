@@ -61,6 +61,17 @@ Kirjauduin sisään palvelimelle kirjoittamalla käynnistyksen yhteydessä annet
 
 ![image](https://user-images.githubusercontent.com/112076377/221378946-412f535e-9f5d-4486-8cb4-9107db9b7c43.png)
 
+## Tietokannan luonti 22:54 
+
+Loin tietokannan komennolla
+
+    ./manage.py startapp crm
+    
+ja lisäsin crm settings.py tiedostoon 
+
+    micro lassico/settings.py
+
+![image](https://user-images.githubusercontent.com/112076377/221379212-86e19a4e-6e25-40b6-8327-191263e99bc4.png)
 
 
 
