@@ -73,6 +73,11 @@ ja lisäsin crm settings.py tiedostoon
 
 ![image](https://user-images.githubusercontent.com/112076377/221379270-181dcefb-ff71-4525-843f-2cffa27b3b22.png)
 
+Muokkaan juuri lisätyn crm kansion sisällä olevaan models.py uuden tietokanta taulun
+
+    micro crm/models.py
+    
+![image](https://user-images.githubusercontent.com/112076377/221379406-b848bc3e-45e9-4242-b597-40adce1648aa.png)
 
 
 
