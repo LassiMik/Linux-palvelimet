@@ -23,3 +23,8 @@ Kehitysympäristön sisällä tein requirements.txt tiedoston komennolla
 jonne kirjoitin django
 
 ![image](https://user-images.githubusercontent.com/112076377/221378149-641397df-7f18-4b10-b58a-d214ddc66c25.png)
+
+ja latasin djangon vielä 
+
+    pip install -r requirements.txt
+    
