@@ -79,6 +79,9 @@ Muokkaan juuri lisätyn crm kansion sisällä olevaan models.py uuden tietokanta
     
 ![image](https://user-images.githubusercontent.com/112076377/221379406-b848bc3e-45e9-4242-b597-40adce1648aa.png)
 
+Ja vielä tuttuun tapaan migraatiot
+
+![image](https://user-images.githubusercontent.com/112076377/221379477-b31acc41-35ef-433b-b8c3-65c181db0f90.png)
 
 
 
