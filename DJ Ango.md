@@ -83,6 +83,11 @@ Ja vielä tuttuun tapaan migraatiot
 
 ![image](https://user-images.githubusercontent.com/112076377/221379477-b31acc41-35ef-433b-b8c3-65c181db0f90.png)
 
+Rekisteröin vielä uuden tietokannan komennolla
+
+    micro crm/admin.py
+    
+![image](https://user-images.githubusercontent.com/112076377/221379524-bbd425d7-6e50-4b33-bd5c-8a096052f0c4.png)
 
 
 
