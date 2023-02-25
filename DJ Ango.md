@@ -71,7 +71,7 @@ ja lisäsin crm settings.py tiedostoon
 
     micro lassico/settings.py
 
-![image](https://user-images.githubusercontent.com/112076377/221379212-86e19a4e-6e25-40b6-8327-191263e99bc4.png)
+![image](https://user-images.githubusercontent.com/112076377/221379270-181dcefb-ff71-4525-843f-2cffa27b3b22.png)
 
 
 
