@@ -1,0 +1,9 @@
+# h10 DJ Ango 
+
+Aloitin tehtävien tekemisen klo 22:15 25.2.2022
+
+## a) kannattavaa 22:16
+  
+Aloitin lataamalla kehitysympäristön
+
+        sudo apt-get -y install virtualenv
