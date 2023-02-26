@@ -73,6 +73,12 @@ Ja lisäsin juuri tehdyn appin settings.py tiedostoon
     
 ![image](https://user-images.githubusercontent.com/112076377/221409154-79e92ad9-ffbb-4d32-bb8b-12a36c57e1e9.png)
 
+Muokkaan juuri lisättyyn tietokantaan uuden taulun 
+    
+    micro blacklist/settings.py
+    
+![image](https://user-images.githubusercontent.com/112076377/221409338-b08f1909-0b9f-4d78-8e00-22464954d93a.png)
+
 
 ## Tietokannan luonti 22:54 
 
