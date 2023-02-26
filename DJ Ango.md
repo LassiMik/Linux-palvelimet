@@ -63,6 +63,17 @@ Kirjauduin sisään palvelimelle kirjoittamalla käynnistyksen yhteydessä annet
 
 ## Tietokannan luonti 26.2.2023 klo x
 
+Loin uuden django appin komennolla
+
+    ./manage.py startapp blacklist
+    
+Ja lisäsin juuri tehdyn appin settings.py tiedostoon
+
+    micro lassico/settings.py
+    
+![image](https://user-images.githubusercontent.com/112076377/221409154-79e92ad9-ffbb-4d32-bb8b-12a36c57e1e9.png)
+
+
 ## Tietokannan luonti 22:54 
 
 Loin tietokannan komennolla
