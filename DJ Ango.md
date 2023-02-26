@@ -105,7 +105,7 @@ Muutosten jälkeen nimet tulostuvat sivulle oikein
 ![image](https://user-images.githubusercontent.com/112076377/221409956-08e1eb29-8e9b-4508-a014-c1448206aa94.png)
 
 
-## Lähteet 14:16
+## Lähteet 26.2.2023 14:16
 
 https://terokarvinen.com/2022/django-instant-crm-tutorial/
 
