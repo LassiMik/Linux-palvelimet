@@ -98,6 +98,7 @@ Lisäsin vielä blacklist/models.py tiedostoon seuraavat rivit
 
 ![image](https://user-images.githubusercontent.com/112076377/221409852-010c1b9e-4a93-4970-a7ed-6ccf4ff99bd0.png)
 
+HUOM! str molemmilla puolilla on kaksi alaviivaa
 
 
 ## Tietokannan luonti 22:54 
