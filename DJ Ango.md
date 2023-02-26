@@ -61,7 +61,7 @@ Kirjauduin sisään palvelimelle kirjoittamalla käynnistyksen yhteydessä annet
 
 ![image](https://user-images.githubusercontent.com/112076377/221378946-412f535e-9f5d-4486-8cb4-9107db9b7c43.png)
 
-## Tietokannan luonti 26.2.2023 klo x
+## Tietokannan luonti 26.2.2023 klo 13:30
 
 Loin uuden django appin komennolla
 
@@ -100,34 +100,14 @@ Lisäsin vielä blacklist/models.py tiedostoon seuraavat rivit
 
 HUOM! str molemmilla puolilla on kaksi alaviivaa
 
+Muutosten jälkeen nimet tulostuvat sivulle oikein
 
-## Tietokannan luonti 22:54 
+![image](https://user-images.githubusercontent.com/112076377/221409956-08e1eb29-8e9b-4508-a014-c1448206aa94.png)
 
-Loin tietokannan komennolla
 
-    ./manage.py startapp crm
-    
-ja lisäsin crm settings.py tiedostoon 
+## Lähteet 14:16
 
-    micro lassico/settings.py
-
-![image](https://user-images.githubusercontent.com/112076377/221379270-181dcefb-ff71-4525-843f-2cffa27b3b22.png)
-
-Muokkaan juuri lisätyn crm kansion sisällä olevaan models.py uuden tietokanta taulun
-
-    micro crm/models.py
-    
-![image](https://user-images.githubusercontent.com/112076377/221379406-b848bc3e-45e9-4242-b597-40adce1648aa.png)
-
-Ja vielä tuttuun tapaan migraatiot
-
-![image](https://user-images.githubusercontent.com/112076377/221379477-b31acc41-35ef-433b-b8c3-65c181db0f90.png)
-
-Rekisteröin vielä uuden tietokannan komennolla
-
-    micro crm/admin.py
-    
-![image](https://user-images.githubusercontent.com/112076377/221379524-bbd425d7-6e50-4b33-bd5c-8a096052f0c4.png)
+https://terokarvinen.com/2022/django-instant-crm-tutorial/
 
 
 
