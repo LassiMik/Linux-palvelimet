@@ -77,7 +77,7 @@ Muokkaan juuri lisättyyn tietokantaan uuden taulun
     
     micro blacklist/settings.py
     
-![image](https://user-images.githubusercontent.com/112076377/221409338-b08f1909-0b9f-4d78-8e00-22464954d93a.png)
+![image](https://user-images.githubusercontent.com/112076377/221409393-29f55c38-0e1f-4e7b-a3c7-455bacd3dafc.png)
 
 
 ## Tietokannan luonti 22:54 
