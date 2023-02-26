@@ -1,6 +1,6 @@
 # h10 DJ Ango 
 
-Aloitin tehtävien tekemisen klo 22:15 25.2.2022
+Aloitin tehtävien tekemisen klo 22:15 25.2.2023
 
 ## a) kannattavaa 22:16
 
@@ -61,7 +61,7 @@ Kirjauduin sisään palvelimelle kirjoittamalla käynnistyksen yhteydessä annet
 
 ![image](https://user-images.githubusercontent.com/112076377/221378946-412f535e-9f5d-4486-8cb4-9107db9b7c43.png)
 
-## Tietokannan luonti 26.2.2022 klo x
+## Tietokannan luonti 26.2.2023 klo x
 
 ## Tietokannan luonti 22:54 
 
