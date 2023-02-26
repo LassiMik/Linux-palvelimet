@@ -90,6 +90,14 @@ Rekisteröin vielä uuden tietokannan komennolla
     
 ![image](https://user-images.githubusercontent.com/112076377/221409514-e24a4b27-944c-4cbe-a97b-9239cdb43b34.png)
 
+Tällä hetkellä taulu näyttää nimet objekteina eikä oikeilla nimillä
+
+![image](https://user-images.githubusercontent.com/112076377/221409681-beb96237-f45f-47e1-a7f0-205e124ace83.png)
+
+Lisäsin vielä blacklist/models.py tiedostoon seuraavat rivit
+
+![image](https://user-images.githubusercontent.com/112076377/221409852-010c1b9e-4a93-4970-a7ed-6ccf4ff99bd0.png)
+
 
 
 ## Tietokannan luonti 22:54 
