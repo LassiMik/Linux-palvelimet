@@ -79,6 +79,18 @@ Muokkaan juuri lisättyyn tietokantaan uuden taulun
     
 ![image](https://user-images.githubusercontent.com/112076377/221409393-29f55c38-0e1f-4e7b-a3c7-455bacd3dafc.png)
 
+tuttuun tapaan migraatiot
+
+    ./manage.py makemigrations
+    ./manage.py migrate
+
+Rekisteröin vielä uuden tietokannan komennolla
+
+    micro blacklist/admin.py
+    
+![image](https://user-images.githubusercontent.com/112076377/221409514-e24a4b27-944c-4cbe-a97b-9239cdb43b34.png)
+
+
 
 ## Tietokannan luonti 22:54 
 
