@@ -72,7 +72,9 @@ Jonka sisällä lukee django
 
 ![image](https://user-images.githubusercontent.com/112076377/222430430-6f290812-82bb-4d30-921a-b8f7d87950d4.png)
 
+Ja latasin vielä djangon komennolla
 
+    pip install -r requirements.txt
 
 
 
