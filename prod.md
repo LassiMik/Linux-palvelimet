@@ -80,9 +80,47 @@ Varmistin vielä että djangon versio on vähintään 4
 
 ![image](https://user-images.githubusercontent.com/112076377/222431040-0d08f6c1-42a8-40d2-b919-ad0d27ba6b85.png)
 
+## Djangon configurointi 14:52
 
+Aloitin uuden projektin djangossa komennolla 
 
+    django-admin startproject testico
+    
+Siirryin muokkaamaan aikasemmin tehtyä conf tiedostoa 
 
+    sudoedit /etc/apache2/sites-available/lassico.conf
+
+Käytin Tero Karvisen tekemää valmista pohjaa conf tiedoston tekemiseen, jossa tarvitsee vain vaihtaa pari polkua.
+
+    Define TDIR /home/lassiv/publicwsgi/testico
+    Define TWSGI /home/lassiv/publicwsgi/testico/testico/wsgi.py
+    Define TUSER lassivar
+    Define TVENV /home/lassiv/publicwsgi/env/lib/python3.9/site-packages
+    # See https://terokarvinen.com/2022/deploy-django/
+
+    <VirtualHost *:80>
+            Alias /static/ ${TDIR}/static/
+            <Directory ${TDIR}/static/>
+                    Require all granted
+            </Directory>
+
+            WSGIDaemonProcess ${TUSER} user=${TUSER} group=${TUSER} threads=5 python-path="${TDIR}:${TVENV}"
+            WSGIScriptAlias / ${TWSGI}
+            <Directory ${TDIR}>
+                 WSGIProcessGroup ${TUSER}
+                 WSGIApplicationGroup %{GLOBAL}
+                 WSGIScriptReloading On
+                 <Files wsgi.py>
+                    Require all granted
+                 </Files>
+            </Directory>
+
+    </VirtualHost>
+
+    Undefine TDIR
+    Undefine TWSGI
+    Undefine TUSER
+    Undefine TVENV
 
 
 
