@@ -140,7 +140,11 @@ Siirryin publicwsgi projektikansioni sisälle
     
 ![image](https://user-images.githubusercontent.com/112076377/222437380-b05ec41b-68e5-4eb5-8086-2ef6c7ef06ae.png)
 
+Päivitin vielä muutokset palvelimelle 
 
+    touch testico/wsgi.py
+    
+    sudo systemctl restart apache2
 
 
 
