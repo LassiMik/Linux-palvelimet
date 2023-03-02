@@ -45,6 +45,45 @@ Ja uusi static kansio toimii
 
 ![image](https://user-images.githubusercontent.com/112076377/222426604-66382684-eee8-473e-b101-95b1c5dc848c.png)
 
+## Djangon lataus virtualenviin 14:19
+
+Aloitin lataamalla virtualenvin komennolla
+
+    sudo apt-get -y install virtualenv 
+    
+siirryin cd komennoilla aikaisemmin luomaani publicwsgi kansioon 
+
+    cd 
+    cd publicwsgi/
+    
+ja tein uuden virtualenvin publicwsgi kansiion komennolla 
+
+    virtualenv -p python3 --system-site-packages env
+    
+Siirryin virtualenviin komennolla 
+
+    source env/bin/activate
+    
+Loin uuden tiedoston microlla, jonka avulla lataan djangon
+
+    micro requirements.txt
+    
+Jonka sisällä lukee django
+
+![image](https://user-images.githubusercontent.com/112076377/222430430-6f290812-82bb-4d30-921a-b8f7d87950d4.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
