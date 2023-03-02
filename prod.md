@@ -12,3 +12,7 @@ Ja vaihdoin vielä apachen etusivun omalla etusivullani
 
     echo "The greater new frontpage" | sudo tee /var/www/html/index.html
     
+Tein vielä static kansion pääkäyttäjäni kotihakemistoon
+    
+    mkdir -p publicwsgi/lassico/static/
+    echo "The greater new static frontpage!"|tee publicwsgi/lassico/static/index.html
