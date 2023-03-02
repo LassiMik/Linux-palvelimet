@@ -122,6 +122,39 @@ Käytin Tero Karvisen tekemää valmista pohjaa conf tiedoston tekemiseen, jossa
     Undefine TUSER
     Undefine TVENV
 
+Käytin TUSER kohdassa testikäyttäjääni, jolla ei ole sudo oikeuksia, koska tuntemattomat nettikäyttäjät voivat ajaa koodia TUSER käyttäjällä.
+
+Seuraavaksi testailen toimiiko uusi conf tiedosto 
+
+    sudo apt-get -y install libapache2-mod-wsgi-py3
+    
+    /sbin/apache2ctl configtest
+    
+    sudo systemctl restart apache2
+
+![image](https://user-images.githubusercontent.com/112076377/222436022-823f800b-03c0-40fe-94a0-352699f3c94e.png)
+
+Siirryin publicwsgi projektikansioni sisälle 
+
+    micro testico/settings.py
+    
+![image](https://user-images.githubusercontent.com/112076377/222437380-b05ec41b-68e5-4eb5-8086-2ef6c7ef06ae.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
