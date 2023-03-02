@@ -16,3 +16,38 @@ Tein vielä static kansion pääkäyttäjäni kotihakemistoon
     
     mkdir -p publicwsgi/lassico/static/
     echo "The greater new static frontpage!"|tee publicwsgi/lassico/static/index.html
+
+Lisäsin apacheen vielä uuden virtualhostin 
+
+    sudoedit /etc/apache2/sites-available/lassico.conf
+    
+Ja lisäsin .conf tiedostoon 
+
+![image](https://user-images.githubusercontent.com/112076377/222425224-29290e80-4f0e-4027-9240-2491ba1504de.png)
+
+Lisäsin vielä uuden conf tiedoston käyttöön
+
+    sudo a2ensite lassico.conf
+
+Ja poistin vanhan conf tiedostoni
+
+    sudo a2dissite newdefault.conf 
+
+Ja kokeilin vielä koodin toimivuuden apachen configtestillä 
+
+![image](https://user-images.githubusercontent.com/112076377/222425374-a97dc800-0d2e-4721-a2bd-5576a46ea795.png)
+
+configtest ok joten käynnistin apachen palvelimen uudestaan, jotta muutokset näkyvät 
+
+    sudo systemctl restart apache2
+    
+Ja uusi static kansio toimii 
+
+![image](https://user-images.githubusercontent.com/112076377/222426604-66382684-eee8-473e-b101-95b1c5dc848c.png)
+
+
+
+
+
+
+
