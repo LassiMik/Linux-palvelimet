@@ -76,6 +76,10 @@ Ja latasin vielä djangon komennolla
 
     pip install -r requirements.txt
 
+Varmistin vielä että djangon versio on vähintään 4
+
+![image](https://user-images.githubusercontent.com/112076377/222431040-0d08f6c1-42a8-40d2-b919-ad0d27ba6b85.png)
+
 
 
 
