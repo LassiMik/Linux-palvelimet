@@ -152,10 +152,36 @@ Tein tähän väliin vielä migraatiot ja käyttäjän palvelimelle
     ./manage.py migrate
     ./manage.py createsuperuser
 
+Yritin kirjautua uudella käyttjällä mutta kohtasin vain "(500) bad request" error viestejä. Kävin vaihtamassa hetkellisesti 
 
+    sudoedit /etc/apache2/sites-available/lassico.conf
+    
+Kansioon TUSER kohtaan superkäyttäjäni, jonka jälkeen pääsin kirjautumaan sisään. Sisällä tein normaalin käyttäjän ilman mitään oikeuksia ja vaihdoin normaalin käyttäjän nimen TUSER kohtaan. Sivusto toimii taas normaalisti ilman erroreita. 
 
+## CSS stylesheets 15:35 
 
+Siirryin django projektini kansioon 
+    
+    cd 
+    cd publicwsgi/testico/
+    micro testico/settings.py 
+    
+Jonne lisäsin 
 
+    import os
+    STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
+
+![image](https://user-images.githubusercontent.com/112076377/222443602-f1011af1-b2b7-4213-ab27-78787c72f65f.png)
+
+Jonka jälkeen 
+
+    ./manage.py collectstatic
+
+![image](https://user-images.githubusercontent.com/112076377/222444125-e72af173-88a8-470b-a220-c3a4a3fc2d24.png)
+
+## Lähteet 15:38 
+
+https://terokarvinen.com/2022/deploy-django/
 
 
 
