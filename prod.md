@@ -146,7 +146,11 @@ Päivitin vielä muutokset palvelimelle
     
     sudo systemctl restart apache2
 
+Tein tähän väliin vielä migraatiot ja käyttäjän palvelimelle
 
+    ./manage.py makemigrations
+    ./manage.py migrate
+    ./manage.py createsuperuser
 
 
 
