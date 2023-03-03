@@ -156,7 +156,7 @@ Yritin kirjautua uudella käyttjällä mutta kohtasin vain "(500) bad request" e
 
     sudoedit /etc/apache2/sites-available/lassico.conf
     
-Kansioon TUSER kohtaan superkäyttäjäni, jonka jälkeen pääsin kirjautumaan sisään. Sisällä tein normaalin käyttäjän ilman mitään oikeuksia ja vaihdoin normaalin käyttäjän nimen TUSER kohtaan. Sivusto toimii taas normaalisti ilman erroreita. 
+Tiedostoon TUSER kohtaan superkäyttäjäni, jonka jälkeen pääsin kirjautumaan sisään. Sisällä tein normaalin käyttäjän ilman mitään oikeuksia ja vaihdoin normaalin käyttäjän nimen TUSER kohtaan. Sivusto toimii taas normaalisti ilman erroreita. 
 
 ## CSS stylesheets 15:35 
 
