@@ -61,6 +61,56 @@ Ilman apachen päivitystä nettisivu antaa jo error viestiä
 
 ![image](https://user-images.githubusercontent.com/112076377/222982864-11e61888-9a5c-43fb-88fc-faa878ba71c7.png)
 
+Ensimmäinen idea errorviestistä oli käydä katsomassa apachen accesslogit komennolla
+
+    sudo tail -F /var/log/apache2/access.log
+    
+![image](https://user-images.githubusercontent.com/112076377/222983085-7af9aed5-578d-4027-ae7f-0ff5b604b452.png)
+
+Joka ei suostunut tulostamaan mitään
+
+Seuraavaksi kokeilin apachen configtestiä
+
+    /sbin/apache2ctl configtest
+    
+![image](https://user-images.githubusercontent.com/112076377/222983192-748c085a-4481-4860-a86e-1814cbdd4b55.png)
+
+Ei errorviestejä täälläkään.
+
+Seuraavaksi tutkin apachen errorlogeja komennolla
+
+    sudo tail -F /var/log/apache2/error.log
+
+![image](https://user-images.githubusercontent.com/112076377/222983314-c6071fbf-05ea-48ce-b979-1c0b0c087a46.png)
+
+Errorlogissa näkyy "client denied by server configuration: /home/lassiv/publicwsgi/testico"
+
+Tulkitsen errorviestistä sen, että kyseessä olevan polun testico tiedostossa on määritetty, että kyseessä olevassa tiedostossa on määritetty, että hakuselaimella ei pääse näkymään, mitä tavoitellaan. Joka on omituista koska kyseistä polkua ei ole enää olemassa, koska siirsin testico tiedoston sijaintia.
+
+![image](https://user-images.githubusercontent.com/112076377/222983394-89fbeb3e-ccee-489c-9655-9d94a38269f4.png)
+
+Korjaan virheen siirtämällä harjoitus kansion sisällä olevan testico kansion takaisin vanhaan sijaintiinsa 
+
+siirryin ensin kotihakemistoni harjoitus kansioon komennolla 
+
+    cd 
+    cd harjoitus
+    
+Jonka jälkeen siirsin mv komennolla testico kansion takaisin oikeaan sijaintiinsa
+
+    mv testico/ /home/lassiv/publicwsgi/
+
+Käynnistin vielä apachen uudestaan komennolla
+
+    sudo systemctl restart apache2
+
+
+
+
+
+
+
+
 
 ## Lähteet xx:xx
 
