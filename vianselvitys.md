@@ -39,6 +39,8 @@ Noudatin seuraavaksi sivuston antaman errorin ohjeita eli siirryin tarkastelemaa
 
 Errorlogit osasivat paikantaa ongelman aiheuttajan
 
+Korjasin ongelman siirtymällä testico kansion sisälle ja muuttamalla settings.py tiedoston sisällä olevan importin takaisin
 
+![image](https://user-images.githubusercontent.com/112076377/222981475-c548a066-1aa1-4672-a50b-659a800b3162.png)
 
 
