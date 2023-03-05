@@ -104,7 +104,9 @@ Käynnistin vielä apachen uudestaan komennolla
 
     sudo systemctl restart apache2
 
+![image](https://user-images.githubusercontent.com/112076377/222983807-f72dc9c4-9e19-42f0-8a63-c728ee071e91.png)
 
+Siirron ja uudelleenkäynnistyksen jälkeen sivusto taas toimii normaalisti
 
 
 
