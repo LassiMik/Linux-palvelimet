@@ -36,3 +36,9 @@ Noudatin seuraavaksi sivuston antaman errorin ohjeita eli siirryin tarkastelemaa
     sudo tail -F /var/log/apache2/error.log
 
 ![image](https://user-images.githubusercontent.com/112076377/222981112-8579539f-c892-4b77-b647-6c206b7bafcc.png)
+
+Errorlogit osasivat paikantaa ongelman aiheuttajan
+
+
+
+
