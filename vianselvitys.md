@@ -9,7 +9,7 @@ Varmistin vielä, että kaikki toimii
 
 ![image](https://user-images.githubusercontent.com/112076377/222980524-644ba55b-a602-4bec-a235-c6834e14ea55.png)
 
-## a) kirjoitusvirhe Python-tiedostossa
+## a) kirjoitusvirhe Python-tiedostossa 21:05
 
 Aiheutin tahallisen kirjoitusvirheen settings.py tiedostoon
 
