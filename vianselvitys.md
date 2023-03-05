@@ -43,4 +43,10 @@ Korjasin ongelman siirtymällä testico kansion sisälle ja muuttamalla settings
 
 ![image](https://user-images.githubusercontent.com/112076377/222981475-c548a066-1aa1-4672-a50b-659a800b3162.png)
 
+Käynnistin vielä palvelimen uudestaan 
 
+    sudo systemctl restart apache2
+    
+![image](https://user-images.githubusercontent.com/112076377/222981689-29e13949-2edb-4998-bec5-2e22bcf5e391.png)
+
+sivusto toimii.
