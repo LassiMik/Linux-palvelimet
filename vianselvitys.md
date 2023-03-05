@@ -85,7 +85,9 @@ Seuraavaksi tutkin apachen errorlogeja komennolla
 
 Errorlogissa näkyy "client denied by server configuration: /home/lassiv/publicwsgi/testico"
 
-Tulkitsen errorviestistä sen, että kyseessä olevan polun testico tiedostossa on määritetty, että kyseessä olevassa tiedostossa on määritetty, että hakuselaimella ei pääse näkymään, mitä tavoitellaan. Joka on omituista koska kyseistä polkua ei ole enää olemassa, koska siirsin testico tiedoston sijaintia.
+Tulkitsen errorviestistä sen, että kyseessä olevan polun testico tiedostossa on määritetty, että kyseessä olevassa tiedostossa on määritetty, että hakuselaimella ei pääse näkymään, mitä tavoitellaan. 
+
+Joka on omituista koska kyseistä polkua ei ole enää olemassa, koska siirsin testico tiedoston sijaintia.
 
 ![image](https://user-images.githubusercontent.com/112076377/222983394-89fbeb3e-ccee-489c-9655-9d94a38269f4.png)
 
