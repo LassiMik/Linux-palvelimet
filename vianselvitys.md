@@ -110,7 +110,9 @@ Käynnistin vielä apachen uudestaan komennolla
 
 Siirron ja uudelleenkäynnistyksen jälkeen sivusto taas toimii normaalisti
 
+sain b) kohdan valmiiksi 5.3.2023 22:37 ja jatkan tästä huomenna
 
+## c) Projektikansiolla väärät oikeudet xx:xx
 
 
 
