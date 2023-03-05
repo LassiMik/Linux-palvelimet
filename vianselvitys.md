@@ -50,3 +50,18 @@ Käynnistin vielä palvelimen uudestaan
 ![image](https://user-images.githubusercontent.com/112076377/222981689-29e13949-2edb-4998-bec5-2e22bcf5e391.png)
 
 sivusto toimii.
+
+## b) Django-projektikansio väärässä paikassa 21:50
+
+Siirsin koko django projektikansion, jonka sisällä manage.py tiedosto on oman pääkäyttäjäni kotihakemistossa olevaan harjoitus kansioon. Käytin komentoa 
+
+    mv testico/ /home/lassiv/harjoitus/
+    
+Ilman apachen päivitystä nettisivu antaa jo error viestiä
+
+![image](https://user-images.githubusercontent.com/112076377/222982864-11e61888-9a5c-43fb-88fc-faa878ba71c7.png)
+
+
+## Lähteet xx:xx
+
+[1] https://www.cyberciti.biz/faq/mv-command-howto-move-folder-in-linux-terminal/
