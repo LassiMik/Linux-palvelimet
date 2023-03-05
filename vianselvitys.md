@@ -31,7 +31,7 @@ Aloitin ongelman ratkomisen kokeilemalla apachen omaa configtestiä
 
 Configtesti palauttaa saman tuloksen, kuin toimiva palvelin, joten configtesti ei osaa tunnistaa että on edes mitään ongelmaa. 
 
-Siirryin seuraavaksi tarkastelemaan apachen errorlogeja. 
+Noudatin seuraavaksi sivuston antaman errorin ohjeita eli siirryin tarkastelemaan apachen errorlogeja
 
     sudo tail -F /var/log/apache2/error.log
 
