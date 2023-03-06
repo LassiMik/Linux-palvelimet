@@ -130,7 +130,13 @@ Muutoksen jälkeen sivuston admin näkymä palauttaa forbidden
 
 ![image](https://user-images.githubusercontent.com/112076377/223063318-a1fbeef5-23ea-4adf-a158-ab7021ce4354.png)
 
+Aloitin ratkomaan ongelmaa ensimmäiseksi käymällä tarkastelemassa apachen errorlogeja
 
+    sudo tail -F /var/log/apache2/error.log
+
+![image](https://user-images.githubusercontent.com/112076377/223064139-7e2e3c53-16ea-44c3-9fe4-529f7e2ed3d6.png)
+
+Apachen errorlogit eivät tulostaneet mitään
 
 
 ## Lähteet xx:xx
