@@ -158,9 +158,29 @@ En tehnyt missään vaiheessa tätä tehtävää pythonin migraatioita tai uudel
 
 ## d) Kirjoitusvirhe Apachen asetustiedostossa 11:12
 
+Siirryin editoimaan conf tiedostoa komennolla
 
+    sudoedit /etc/apache2/sites-available/lassico.conf
+    
+![image](https://user-images.githubusercontent.com/112076377/223067326-d61d6aed-0187-4d12-a913-1a4126970427.png)
 
+Yritin käynnistää apachea uudestaan komennolla 
 
+    sudo systemctl restart apache2
+    
+![image](https://user-images.githubusercontent.com/112076377/223069107-096ca077-7749-4217-964a-66635f6d63eb.png)
+
+Apache ei suostu edes käynnistymään viallisella config tiedostolla
+
+Kävin seuraavaksi vilkaisemassa apachen configtestiä
+
+    /sbin/apache2ctl configtest
+    
+![image](https://user-images.githubusercontent.com/112076377/223068659-051eb235-0edf-4026-96dc-1840c2930220.png)
+
+Configtest osasi suoraan kertoa ongelman alkuperän
+
+Korjasin ongelman 
 
 
 
