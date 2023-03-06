@@ -255,6 +255,7 @@ Sivusto toimii taas normaalisti
 ## Lähteet 11:55
 
 [1] https://www.cyberciti.biz/faq/mv-command-howto-move-folder-in-linux-terminal/
+
 [2] https://www.howtogeek.com/437958/how-to-use-the-chmod-command-on-linux/
 
 
