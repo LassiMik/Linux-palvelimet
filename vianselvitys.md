@@ -218,6 +218,11 @@ Jonka jälkeen käynnistin vielä palvelimen uudestaan ja tarkastelin configtest
 
 ## f) Väärät domain-nimet ALLOWED_HOSTS-kohdassa 11:38
 
+Aloitin vaihtamalla domain nimen ALLOWED_HOST-kohtaan projektin settings.py tiedostossa
+
+    
+
+![image](https://user-images.githubusercontent.com/112076377/223073368-84d26e25-ac2e-4ab6-899b-9fb0586b350b.png)
 
 
 
