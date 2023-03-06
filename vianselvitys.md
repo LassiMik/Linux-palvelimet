@@ -120,6 +120,11 @@ Tarkastin aluksi projektikansioni oikeudet komennolla
     
 ![image](https://user-images.githubusercontent.com/112076377/223062416-fac4c05d-14d6-4382-a93c-54944c989cfa.png)
 
+Muutin projektikansion oikeuksia komennolla
+
+    chmod ugo-rwx testico/
+    
+![image](https://user-images.githubusercontent.com/112076377/223063016-60526d2b-bbd2-469c-a48f-1990b8586ec3.png)
 
 
 
