@@ -186,16 +186,37 @@ Apachen uudelleenkäynnistämisen jälkeen sivusto taas toimii normaalisti
 
 ## e) Apachen WSGI-moduli puuttuu 11:25
 
+Aloitin poistamalla wsgi moduulin komennolla
 
+    sudo apt-get purge libapache2-mod-wsgi-py3
 
+Käynnistin vielä palvelimen uudestaan komennolla
 
+    sudo systemctl restart apache2
 
+![image](https://user-images.githubusercontent.com/112076377/223071212-6ea22e6a-6dd9-4ee7-9cd8-36b2c6acc748.png)
 
+Uudelleenkäynnistys tulosti aikaisemmasta tehtävästä tutun errorviestin
 
+Kävin seuraavaksi configtestaamassa 
 
+    /sbin/apache2ctl configtest
 
+![image](https://user-images.githubusercontent.com/112076377/223071619-80fcce30-789b-4c4a-a478-1fad9f0081f8.png)
 
+Configtest valittaa väärästä komennosta "WSGIDaemonProcess", joka voi olla väärinkirjoitettu tai jota ei ole ladattu. 
 
+Configtest siis osasi paikantaa ongelman syyn
+
+Korjaan ongelman lataamalla poistamani moduulin takaisin komennolla
+
+    sudo apt-get -y install libapache2-mod-wsgi-py3
+
+Jonka jälkeen käynnistin vielä palvelimen uudestaan ja tarkastelin configtestiä
+
+![image](https://user-images.githubusercontent.com/112076377/223072730-be0bdfd8-df55-4d21-8826-df4653ccf2f4.png)
+
+## f) Väärät domain-nimet ALLOWED_HOSTS-kohdassa 11:38
 
 
 
