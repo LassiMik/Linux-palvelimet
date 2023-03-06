@@ -152,6 +152,26 @@ Korjasin oikeuksiin liittyvät ongelmat antamalla aikaisemmin poistamani oikeude
     
 ![image](https://user-images.githubusercontent.com/112076377/223066201-1dcd972f-c028-409a-aca5-b74148d95924.png)
 
+En tehnyt missään vaiheessa tätä tehtävää pythonin migraatioita tai uudelleenkäynnistänyt apachea ja nyt sivu taas toimii normaaliin tapaan
+
+![image](https://user-images.githubusercontent.com/112076377/223066519-13657268-4580-4541-bb07-1c9a98efe191.png)
+
+## d) Kirjoitusvirhe Apachen asetustiedostossa 11:12
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ## Lähteet xx:xx
