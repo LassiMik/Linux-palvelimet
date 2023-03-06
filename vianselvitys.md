@@ -146,6 +146,14 @@ Seuraavaksi yritin siirtyä projektikansioon komennolla
 
 En pystynyt siirtymään projektikansioon, koska sudokäyttäjälläni ei ole tarpeeksi oikeuksia
 
+Korjasin oikeuksiin liittyvät ongelmat antamalla aikaisemmin poistamani oikeudet takaisin komennolla
+
+    chmod +rwx testico/
+    
+![image](https://user-images.githubusercontent.com/112076377/223066201-1dcd972f-c028-409a-aca5-b74148d95924.png)
+
+
+
 ## Lähteet xx:xx
 
 [1] https://www.cyberciti.biz/faq/mv-command-howto-move-folder-in-linux-terminal/
