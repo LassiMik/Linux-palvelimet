@@ -180,7 +180,13 @@ Kävin seuraavaksi vilkaisemassa apachen configtestiä
 
 Configtest osasi suoraan kertoa ongelman alkuperän
 
-Korjasin ongelman 
+Korjasin ongelman sudoeditoimalla ongelman config tiedostossa.
+
+Apachen uudelleenkäynnistämisen jälkeen sivusto taas toimii normaalisti
+
+## e) Apachen WSGI-moduli puuttuu 11:25
+
+
 
 
 
