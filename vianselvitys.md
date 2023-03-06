@@ -126,6 +126,9 @@ Muutin projektikansion oikeuksia komennolla
     
 ![image](https://user-images.githubusercontent.com/112076377/223063016-60526d2b-bbd2-469c-a48f-1990b8586ec3.png)
 
+Muutoksen jälkeen sivuston admin näkymä palauttaa forbidden 
+
+![image](https://user-images.githubusercontent.com/112076377/223063318-a1fbeef5-23ea-4adf-a158-ab7021ce4354.png)
 
 
 
