@@ -138,6 +138,13 @@ Aloitin ratkomaan ongelmaa ensimmäiseksi käymällä tarkastelemassa apachen er
 
 Apachen errorlogit eivät tulostaneet mitään
 
+Seuraavaksi yritin siirtyä projektikansioon komennolla
+
+    cd testico/
+    
+![image](https://user-images.githubusercontent.com/112076377/223064563-4038b6f8-5adb-4ed4-8f67-7478d403d75b.png)
+
+En pystynyt siirtymään projektikansioon, koska sudokäyttäjälläni ei ole tarpeeksi oikeuksia
 
 ## Lähteet xx:xx
 
