@@ -220,9 +220,38 @@ Jonka jälkeen käynnistin vielä palvelimen uudestaan ja tarkastelin configtest
 
 Aloitin vaihtamalla domain nimen ALLOWED_HOST-kohtaan projektin settings.py tiedostossa
 
-    
+    micro testico/testico/settings.py
 
-![image](https://user-images.githubusercontent.com/112076377/223073368-84d26e25-ac2e-4ab6-899b-9fb0586b350b.png)
+![image](https://user-images.githubusercontent.com/112076377/223073497-fbde9a79-eba3-4f6b-96ad-97482d278082.png)
+
+Käynnistin apachen uudestaan sekä tein migraatiot
+
+    ./manage.py makemigrations
+    ./manage.py migrate
+    sudo systemctl restart apache2
+
+![image](https://user-images.githubusercontent.com/112076377/223074526-c32509a2-ec14-44d9-a5fe-beac278a5524.png)
+
+Tarkastelin kaikki apachen logit läpi komennolla
+
+    sudo tail -F /var/log/apache2/
+
+Ainoat tapahtumat mitä logeihin kirjattiin errorista oli get pyynnöt, jotka ei ongelmanratkaisussa auttaneet.
+
+Apachen configtest palautti "syntax ok" eli ei sielläkään virheitä
+
+Kävin tässä välissä settings.py tiedostossa vaihtamassa debug tilan takaisin päälle 
+
+![image](https://user-images.githubusercontent.com/112076377/223076192-7ba74ea0-4e8a-4352-ac09-914c8f2b27a0.png)
+
+
+
+
+
+
+
+
+
 
 
 
