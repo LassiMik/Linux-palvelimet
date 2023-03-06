@@ -244,17 +244,18 @@ Kävin tässä välissä settings.py tiedostossa vaihtamassa debug tilan takaisi
 
 ![image](https://user-images.githubusercontent.com/112076377/223076192-7ba74ea0-4e8a-4352-ac09-914c8f2b27a0.png)
 
+Debug tila antaa tarkan virheilmoituksen sekä osaa kertoa mitä tulee korjata, jotta nettisivu taas toimii
 
+![image](https://user-images.githubusercontent.com/112076377/223076544-8bc7701b-8ab9-4ff6-95a5-2a11077ee970.png)
 
+Kävin laittamassa debug tilan pois sekä vaihtamassa oikean hostin ALLOWED_HOSTS kohtaan
 
+Sivusto toimii taas normaalisti
 
-
-
-
-
-
-
-
-## Lähteet xx:xx
+## Lähteet 11:55
 
 [1] https://www.cyberciti.biz/faq/mv-command-howto-move-folder-in-linux-terminal/
+[2] https://www.howtogeek.com/437958/how-to-use-the-chmod-command-on-linux/
+
+
+
