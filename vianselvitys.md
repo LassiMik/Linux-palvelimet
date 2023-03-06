@@ -112,7 +112,14 @@ Siirron ja uudelleenkäynnistyksen jälkeen sivusto taas toimii normaalisti
 
 sain b) kohdan valmiiksi 5.3.2023 22:37 ja jatkan tästä huomenna
 
-## c) Projektikansiolla väärät oikeudet xx:xx
+## c) Projektikansiolla väärät oikeudet 6.3.2023 10:51
+
+Tarkastin aluksi projektikansioni oikeudet komennolla
+
+    ls -l
+    
+![image](https://user-images.githubusercontent.com/112076377/223062416-fac4c05d-14d6-4382-a93c-54944c989cfa.png)
+
 
 
 
