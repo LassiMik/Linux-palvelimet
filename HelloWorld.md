@@ -4,7 +4,7 @@ Aloitin tehtävien teon 9.3.2023 13:06
 
 ## a) Käännä "Hei maailma" kolmella kielellä.
 
-### Lua 
+### Lua 13:08
 
 Asensin luan komennolla
 
@@ -13,11 +13,11 @@ Asensin luan komennolla
 ![image](https://user-images.githubusercontent.com/112076377/224010378-a698715e-fdeb-4b66-b709-ca58ad8d78e5.png)
 
 
-### python3
+### python3 13:15
 
 ![image](https://user-images.githubusercontent.com/112076377/224006339-f539951b-3da4-43d2-8008-7b7f4686d39e.png)
 
-### Java 
+### Java 13:20
 
 Aloitin asentamalla javan komennolla 
 
@@ -43,8 +43,15 @@ Kääntää koodin sekä komento
     
 pyörittää sen
 
+## b) Vapaaehtoinen: greetme, joka tulostaa käyttäjän antaman parametrin 13:30
 
+![image](https://user-images.githubusercontent.com/112076377/224013154-28a8b865-6a62-44b9-b709-c215756fd622.png)
 
+Koodin sisältämä for loop on tarkoitettu muuttamaan käyttäjän antamat parametriarvot tulostettavaksi string muuttujaksi
+
+## Lähteet 13:46
+
+[1] https://terokarvinen.com/2018/hello-python3-bash-c-c-go-lua-ruby-java-programming-languages-on-ubuntu-18-04/
 
 
 
