@@ -17,3 +17,4 @@ Muutin myös uuden komennon oikeuksia, jotta kaikki käyttäjät voivat käyttä
 ![image](https://user-images.githubusercontent.com/112076377/224512436-b2a4944f-5588-4d70-bb30-c18182f6bc4c.png)
 
 
+jatkan tästä huomenna
