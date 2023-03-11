@@ -16,6 +16,12 @@ Muutin myös uuden komennon oikeuksia, jotta kaikki käyttäjät voivat käyttä
 
 ![image](https://user-images.githubusercontent.com/112076377/224512436-b2a4944f-5588-4d70-bb30-c18182f6bc4c.png)
 
+Kopioin seuraavaksi valmiin scriptin kansioon, josta jokainen käyttäjä voi pyörittää sitä 
+
+![image](https://user-images.githubusercontent.com/112076377/224514049-0bab839b-fec7-4103-bfff-7b42041f3e18.png)
+
+
+
 
 jatkan tästä huomenna
 
