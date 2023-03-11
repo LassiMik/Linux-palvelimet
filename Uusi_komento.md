@@ -18,3 +18,5 @@ Muutin myös uuden komennon oikeuksia, jotta kaikki käyttäjät voivat käyttä
 
 
 jatkan tästä huomenna
+
+![image](https://user-images.githubusercontent.com/112076377/224512802-0f6d1ac9-2c30-41e1-9fd8-497be6137f65.png)
