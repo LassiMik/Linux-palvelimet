@@ -8,9 +8,9 @@ Aloitin tekemällä uuden kansion komentoja varten kotihakemistoon selvemmän ti
 
     mkdir scripting
     
-Tein helpon bash scriptin joka yhdistää kaksi valmista scriptiä
+Tein helpon bash scriptin joka yhdistää kolme valmista scriptiä yhdeksi helposti muistettavaksi komennoksi
 
-![image](https://user-images.githubusercontent.com/112076377/224512380-44d78866-aeb1-47d0-b872-c619a02a907c.png)
+![image](https://user-images.githubusercontent.com/112076377/224512542-5b6999f3-1ff7-4b48-96b1-59022452b4ea.png)
 
 Muutin myös uuden komennon oikeuksia, jotta kaikki käyttäjät voivat käyttää komentoa
 
