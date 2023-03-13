@@ -52,8 +52,37 @@ Kopioin vielä valmiin scriptin kansioon, josta jokainen käyttäjä voi käytt�
 
 ![image](https://user-images.githubusercontent.com/112076377/224703270-1c3116ba-370c-43a7-beb2-3092c4401af3.png)
 
+Kohtasin virheen scriptiä pyörittäessä, korjasin virheen lisäämällä seuraavan tekstin scriptin alkuun
+
+![image](https://user-images.githubusercontent.com/112076377/224703489-e46e4c30-26fb-48a1-94f4-7a9f99d80b7a.png)
+
+Kokeilin vielä komentoa toisellä käyttäjällä 
+
+![image](https://user-images.githubusercontent.com/112076377/224703752-0c6ae506-0951-45ed-ba7c-b881a39e89f8.png)
+
+## c) Linuxiin komento, joka tekee jotain monelle tiedostolle 14:36
+
+Tein komennon, joka tulostaa kaikkien hakemiston sisällä olevien tiedostojen sisällön. Komento tulostaa sekä nykyisen kansion tiedostojen sisällön sekä alikansioiden tiedostojen sisällön
+
+![image](https://user-images.githubusercontent.com/112076377/224705939-6a864796-a15d-49f7-932f-0277c98638a1.png)
+
+Annoin kaikille käyttäjille oikeuden pyörittää komentoa komennolla
+
+    chmod ugo+x find_all
+    
+ja siirsin scriptin sijaintiin, josta kaikki käyttäjät voivat käyttää sitä
+
+    sudo cp find_all /usr/local/bin/
+
+Tein virheen ja suoritin komennon toisella käyttäjälläni sen kotihakemistossa. Komento kuitenkin toimii.
+
+## Lähteet 
+
+[1] https://terokarvinen.com/2023/linux-palvelimet-2023-alkukevat/#h14-uusi-komento
+
+[2] https://stackoverflow.com/questions/21277963/how-to-display-contents-of-all-files-under-a-directory-on-the-screen-using-unix
 
 
 
 
-Jatkan tästä huomenna
+
