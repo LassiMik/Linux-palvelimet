@@ -74,7 +74,7 @@ ja siirsin scriptin sijaintiin, josta kaikki käyttäjät voivat käyttää sit�
 
     sudo cp find_all /usr/local/bin/
 
-Tein virheen ja suoritin komennon toisella käyttäjälläni sen kotihakemistossa. Komento kuitenkin toimii.
+Komento toimii
 
 ## Lähteet 
 
